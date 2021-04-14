@@ -11,7 +11,7 @@ public class Book {
         reads = 0;
         lock = new ReentrantReadWriteLock();
     }
-
+    //adglkajl
     public int readBook() {
         lock.readLock().lock();
         int value=reads;
