@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.stream.Collectors;
+
 
 public class BookCase {
     //PRIVATES VARIABLES
@@ -26,16 +28,8 @@ public class BookCase {
     public Book getBook(ArrayList<Book> notValidBooks){
         Random rand = new Random();
         Book bookSelected;
-        /*try {
-            bookSelected = allBooks.stream().
-                                filter(book -> notValidBooks.contains(book) == false).
-                                findFirst().get();
-        //} catch (NoSuchElementException e){
-         //   e.printStackTrace();
-       // }*/
+        List<Book> validBooks = allBooks.stream().filter(book -> !notValidBooks.contains(book)).collect(Collectors.toList());
 
-        List<Book> validBooks = allBooks.stream().
-                            filter(book -> !notValidBooks.contains(book)).toList();
         bookSelected = validBooks.get(rand.nextInt(validBooks.size()));
         return bookSelected;
     }
@@ -46,7 +40,7 @@ public class BookCase {
 
     public boolean checkAllBooksReady(){
         boolean allBooksReady = false;
-        long booksReady = allBooks.stream().filter(Book::isReady).count();
+        long booksReady = allBooks.stream().filter(book -> book.isReady()).count();
         if(booksReady == numberOfBooks){
             allBooksReady = true;
         }
