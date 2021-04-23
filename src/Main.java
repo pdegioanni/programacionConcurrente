@@ -1,23 +1,58 @@
+import java.util.concurrent.TimeUnit;
+
 public class Main {
     public static void main (String args[]){
         // Creates the print queue
-        Book book =new Book();
+
+        Thread[] threadW=new Thread[10];
+        Thread[] threadR=new Thread[20];
+        BookCase bookCase = new BookCase(24, threadW.length, threadR.length);
 
         // Creates the first ten Threads for writers
-        Thread thread[]=new Thread[30];
-        for (int i=0; i<10; i++){
-            thread[i]=new Thread(new Writer(book),"Writer thread"+i);
+        for (int i=0; i< threadW.length; i++){
+            threadW[i]=new Thread(new Writer(bookCase),"Writer "+i);
         }
+        for (int i=0; i< threadR.length; i++){
+            threadR[i]=new Thread(new Reader(bookCase),"Reader "+i);
+        }
+        Log log = new Log(bookCase);
+        Thread threadL = new Thread(log);
 
-        // Creates the last 20 threads for readers Threads for Readers
-        for (int i=10; i<30; i++){
-            thread[i]=new Thread(new Reader(book),"Reader thread"+i);
-        }
+
+        //check initial time
+        long startTime = System.currentTimeMillis();
 
         // Starts the Threads
-        for (int i=0; i<30; i++){
-            thread[i].start();
+        for (int i=0; i< threadW.length; i++){
+            threadW[i].start();
         }
+
+        threadL.start();
+
+        try {
+            TimeUnit.SECONDS.sleep(1);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        for (int i=0; i< threadR.length; i++){
+            threadR[i].start();
+        }
+
+        //check finish time
+        try {
+            threadL.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        long finishTime = System.currentTimeMillis();
+
+        //time execution report
+        System.out.printf("\n");
+        System.out.printf("------------------------\n");
+        System.out.printf("EXECUTION TIME: " + (finishTime - startTime)/1000 + " seconds\n");
+        System.out.printf("------------------------\n");
     }
 
 }

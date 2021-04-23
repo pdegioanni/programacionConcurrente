@@ -4,7 +4,7 @@ import java.io.PrintWriter;
 public class Log implements Runnable {
     //PRIVATES VARIABLES
     //------------------------------------------------------------------------------------------------------------------
-    private final long SAMPLE_TIME = 1000;
+    private final long SAMPLE_TIME = 2000;
     private final String REPORT_FILE_NAME = "log.txt";
 
     private BookCase bookCase;
