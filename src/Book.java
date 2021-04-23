@@ -109,5 +109,4 @@ public class Book {
             ready = true;
             readyLock.writeLock().unlock();
         }
-    }
 }
