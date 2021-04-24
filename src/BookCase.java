@@ -25,6 +25,13 @@ public class BookCase {
     }
     //PUBLIC METHODS
     //------------------------------------------------------------------------------------------------------------------
+    public Book getBook(){
+        Random rand = new Random();
+        Book bookSelected;
+        bookSelected = allBooks.get(rand.nextInt(allBooks.size()));
+        return bookSelected;
+    }
+
     public Book getBook(ArrayList<Book> notValidBooks){
         Random rand = new Random();
         Book bookSelected;
@@ -49,9 +56,22 @@ public class BookCase {
 
     public String getBooksStats(){
         StringBuilder result = new StringBuilder();
+        int booksReady = 0;
+        int booksInFinalVersion =0;
+
+        result.append("\nBooks Stats\n:" );
         for(Book book : allBooks){
+            if(book.isReady()) {
+                booksReady++;
+            }
+            else if(book.isFinalVersion()){
+                booksInFinalVersion ++;
+            }
             result.append("Book ").append(book.getIdNumber()).append(": has ").append(book.getReviews()).append(" reviews and ").append(book.getReads()).append(" reads\n");
         }
+        result.append ("Total number of books:   " + this.getNumberOfBooks() +
+                "\nTotal number of books in final version: " + booksInFinalVersion +
+                "\nTotal number of books ready: " + booksReady);
         return result.toString();
     }
 

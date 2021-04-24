@@ -17,17 +17,37 @@ public class Reader implements Runnable{
     }
 
     private void readBook(){
-        Book bookToRead = bookCase.getBook(booksRead);
-        if(bookToRead.isFinalVersion()){
-            System.out.printf("%s: going to read the final version of book %d \n",Thread.currentThread().getName(), bookToRead.getIdNumber());
-            bookToRead.registerRead();
-            System.out.printf("%s: a read has been registered on book %d \n",Thread.currentThread().getName(), bookToRead.getIdNumber());
-            markBookAsRead(bookToRead);
+        Book bookToRead = bookCase.getBook();
+        if (bookToRead.isReady()){
+            bookToRead = bookCase.getBook();
         }
-        //else bookToRead.readBook()
+        else if (bookToRead.isFinalVersion() && !booksRead.contains(bookToRead)){
+            //System.out.printf("%s: going to read the final version of book %d \n",Thread.currentThread().getName(), bookToRead.getIdNumber());
+            if(bookToRead.registerRead(Thread.currentThread().getName())){
+                System.out.printf("%s: a read has been registered on book %d \n",Thread.currentThread().getName(), bookToRead.getIdNumber());
+                markBookAsRead(bookToRead);
+            }
+            else{
+                System.out.printf("%s: couldn't read on book %d. Writers were waiting \n",Thread.currentThread().getName(), bookToRead.getIdNumber());
+            }
+        }
+        else {
+            //System.out.printf("%s: going to read book %d (not final version) \n",Thread.currentThread().getName(), bookToRead.getIdNumber());
+            if(bookToRead.onlyReadBook(Thread.currentThread().getName())) {
+                System.out.printf("%s: read book %d (not final version)\n", Thread.currentThread().getName(), bookToRead.getIdNumber());
+            }
+        };
     }
 
     private void markBookAsRead(Book book){
         booksRead.add(book);
+    }
+
+    private void waitForLog(){
+        try {
+            wait();
+        }catch (InterruptedException e){
+            e.printStackTrace();
+        }
     }
 }

@@ -2,10 +2,10 @@ import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.util.Date;
 
-public class Log implements Runnable {
+public class log2 {
     //PRIVATES VARIABLES
     //------------------------------------------------------------------------------------------------------------------
-    private final long SAMPLE_TIME = 2000;
+    //private final long SAMPLE_TIME = 2000;
     private final String REPORT_FILE_NAME = "log.txt";
 
     private BookCase bookCase;
@@ -13,17 +13,17 @@ public class Log implements Runnable {
 
     //CONSTRUCTOR
     //------------------------------------------------------------------------------------------------------------------
-    public Log(BookCase bookCase){
+    public log2(BookCase bookCase){
         this.bookCase = bookCase;
     }
 
     //PUBLIC METHODS
     //------------------------------------------------------------------------------------------------------------------
-    @Override
-    public void run() {
+    //@Override
+    public void startReport() {
 
         String tittle = "##########################################\n" +
-                new Date() + "\n" +
+                new Date() +
                 "REPORT OF PROGRAM \n" +
                 "Thirty Threads\n" +
                 "##########################################";
@@ -31,7 +31,7 @@ public class Log implements Runnable {
         //write a tittle in a file
         this.writeFile(tittle);
 
-        do {
+        /*do {
             //wait 2 seconds
             try {
                 Thread.sleep(SAMPLE_TIME);
@@ -43,7 +43,7 @@ public class Log implements Runnable {
 
             //write a sample in a file
             this.writeFile(report);
-        }while (!bookCase.checkAllBooksReady());
+        }while (!bookCase.checkAllBooksReady());*/
     }
 
     //PRIVATE METHODS
@@ -53,21 +53,17 @@ public class Log implements Runnable {
      * @return [String] report
      * @apiNote Print a information log
      */
-    private String takeInformation() {
+    public void takeInformation() {
         String report = "";
 
         //Save report
         report += ("----------------------------------\n");
 
-        /*report += ("Report " + this.reportNumber +" |\n"+ "----------" +
+        report += ("Report " + this.reportNumber +" |\n"+ "----------" +
                 "\nTotal number of books:   " + bookCase.getNumberOfBooks() +
                 "\nTotal number of books in final version: " + bookCase.getAmountOfBooksInFinalVersion() +
                 "\nTotal number of books ready: " + bookCase.getAmountOfBooksReady() +
                 "\nBooks Stats\n:" + bookCase.getBooksStats() +
-                "\n");*/
-
-        report += ("Report " + this.reportNumber +" |\n"+ "----------" +
-                bookCase.getBooksStats() +
                 "\n");
         report += ("----------------------------------\n");
 
@@ -76,8 +72,9 @@ public class Log implements Runnable {
 
         //print report
         System.out.printf(report);
+        this.writeFile(report);
 
-        return report;
+        //return report;
     }
 
     /**

@@ -29,15 +29,16 @@ public class Main {
 
         threadL.start();
 
-        try {
+        /*try {
             TimeUnit.SECONDS.sleep(1);
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }
+        }*/
 
         for (int i=0; i< threadR.length; i++){
             threadR[i].start();
         }
+
 
         //check finish time
         try {
@@ -45,6 +46,44 @@ public class Main {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    /*
+        log2 log = new log2(bookCase);
+        log.startReport();
+
+        do {
+            //wait 2 seconds
+            try {
+                TimeUnit.MILLISECONDS.sleep(2000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+            //take a report sample and print
+            for (int i=0; i< threadW.length; i++){
+                try {
+                    threadW[i].waitForLog();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+            for (int i=0; i< threadR.length; i++){
+                try {
+                    threadR[i].waitForLog();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            log.takeInformation();*/
+           /* for (int i=0; i< threadW.length; i++){
+            threadW.notifyAll();
+            }
+            for (int i=0; i< threadR.length; i++){
+                threadR.notifyAll();
+                } while (!bookCase.checkAllBooksReady());
+            }*/
+
+
 
         long finishTime = System.currentTimeMillis();
 
@@ -55,4 +94,4 @@ public class Main {
         System.out.printf("------------------------\n");
     }
 
-}
+    }

@@ -9,8 +9,11 @@ public class Book {
     private int reviews;
     private int reads;
     private  boolean finalVersion;
-    private boolean ready; // indica que el libro
-    private ReadWriteLock reviewsLock, readsLock, finalVersionLock, readyLock;
+    private boolean ready;
+    private Object controlReads;
+    private ReadWriteLock finalVersionLock, readyLock;
+    private ReentrantReadWriteLock bookLock;
+    private int writersWaiting;
 
     public Book(int idNumber, int numberOfWriters, int numberOfReaders ){
         this.idNumber = idNumber;
@@ -20,28 +23,34 @@ public class Book {
         reads = 0;
         ready= false;
         finalVersion =false;
-        reviewsLock= new ReentrantReadWriteLock(true);
-        readsLock = new ReentrantReadWriteLock(true);
+        bookLock = new ReentrantReadWriteLock(true);
         finalVersionLock = new ReentrantReadWriteLock(true);
         readyLock  = new ReentrantReadWriteLock(true);
+        controlReads = new Object();
+        writersWaiting = 0;
     }
 
     public boolean isReady(){
-        readyLock.readLock().lock();
+        bookLock.readLock().lock();
         boolean r = ready;
-        readyLock.readLock().unlock();
+        bookLock.readLock().unlock();
         return r;
     }
 
     public boolean isFinalVersion(){
-        finalVersionLock.readLock().lock();
+        //bookLock.readLock().lock();
         boolean r = finalVersion;
-        finalVersionLock.readLock().unlock();
+        //bookLock.readLock().unlock();
         return r;
     }
 
-    public void writeReview(){
-        reviewsLock.writeLock().lock();
+    public void writeReview(String writerId){
+        if(!bookLock.writeLock().tryLock()){
+            writersWaiting ++;
+            bookLock.writeLock().lock();
+            writersWaiting --;
+        }
+        System.out.printf("%s: going to write a review on book %d \n",writerId, this.getIdNumber());
         reviews ++;
         try {
             TimeUnit.MILLISECONDS.sleep((long) (Math.random()*100));
@@ -49,51 +58,76 @@ public class Book {
             e.printStackTrace();
         }
         finally {
-            reviewsLock.writeLock().unlock();
+            bookLock.writeLock().unlock();
         }
         checkFinalVersion();
     }
 
-    public void registerRead() {
-        readsLock.writeLock().lock();
-        reads ++;
-        try {
-            TimeUnit.MILLISECONDS.sleep((long) (Math.random()*100));
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+    public boolean registerRead(String readerId) {
+        if(writersWaiting == 0){
+            bookLock.readLock().lock();
+            System.out.printf("%s: going to read final version of book %d \n",readerId, this.getIdNumber());
+            incrementReads();
+            try {
+                TimeUnit.MILLISECONDS.sleep((long) (Math.random()*100));
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            finally {
+                bookLock.readLock().unlock();
+            }
+            checkReady();
+            return  true;
         }
-        finally {
-            readsLock.writeLock().unlock();
-        }
-        checkReady();
+        return false;
     }
 
-    // public void readBook(){
-    // }
+    public void incrementReads(){
+        synchronized (controlReads) {
+            reads ++;
+        }
+    }
+
+    public boolean onlyReadBook(String readerId){
+        if(writersWaiting == 0){
+            bookLock.readLock().lock();
+            System.out.printf("%s: going to read book %d (not final version) \n",readerId, this.getIdNumber());
+            try {
+                TimeUnit.MILLISECONDS.sleep((long) (Math.random()*100));
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            finally {
+                bookLock.readLock().unlock();
+            }
+            return true;
+        }
+        return false;
+     }
 
     public int getIdNumber() {
         return idNumber;
     }
 
     public int getReviews() {
-        reviewsLock.readLock().lock();
+        bookLock.readLock().lock();
         int r = reviews;
-        reviewsLock.readLock().unlock();
+        bookLock.readLock().unlock();
         return r;
     }
 
     public int getReads() {
-        readsLock.readLock().lock();
+        bookLock.readLock().lock();
         int r = reads;
-        readsLock.readLock().unlock();
+        bookLock.readLock().unlock();
         return r;
     }
 
 
     private void checkFinalVersion(){
-        reviewsLock.readLock().lock();
+        bookLock.readLock().lock();
         int numberOfReviews = reviews;
-        reviewsLock.readLock().unlock();
+        bookLock.readLock().unlock();
         if(numberOfReviews == numberOfWriters) {
             finalVersionLock.writeLock().lock();
             finalVersion = true;
@@ -101,12 +135,13 @@ public class Book {
         }
     }
     private void checkReady(){
-        readsLock.readLock().lock();
+        bookLock.readLock().lock();
         int numberOfReads = reads;
-        readsLock.readLock().unlock();
+        bookLock.readLock().unlock();
         if(numberOfReads == numberOfReaders) {
             readyLock.writeLock().lock();
             ready = true;
             readyLock.writeLock().unlock();
         }
+    }
 }
