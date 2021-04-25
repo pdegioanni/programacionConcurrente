@@ -41,10 +41,6 @@ public class BookCase {
         return bookSelected;
     }
 
-    public ArrayList<Book> getAllBooks() {
-        return allBooks;
-    }
-
     public boolean checkAllBooksReady(){
         boolean allBooksReady = false;
         long booksReady = allBooks.stream().filter(book -> book.isReady()).count();
@@ -70,30 +66,10 @@ public class BookCase {
             result.append("Book ").append(book.getIdNumber()).append(": has ").append(book.getReviews()).append(" reviews and ").append(book.getReads()).append(" reads\n");
         }
         result.append ("Total number of books:   " + this.getNumberOfBooks() +
-                "\nTotal number of books in final version: " + booksInFinalVersion +
-                "\nTotal number of books ready: " + booksReady);
+                "\nApproximate total number of books in final version: " + booksInFinalVersion +
+                "\nApproximate total number of books ready: " + booksReady);
         return result.toString();
     }
-
-    /*public int getAmountOfBooksInFinalVersion(){
-        int booksInFinalVersion = 0;
-        for (Book book: allBooks){
-            if(book.isFinalVersion()){
-                booksInFinalVersion++;
-            }
-        }
-        return booksInFinalVersion;
-    }*/
-
-   /* public int getAmountOfBooksReady(){
-        int booksReady = 0;
-        for(Book book: allBooks){
-            if(book.isReady()) {
-                booksReady++;
-            }
-        }
-        return booksReady;
-    }*/
 
     public int getNumberOfBooks() {
         return numberOfBooks;

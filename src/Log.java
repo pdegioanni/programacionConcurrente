@@ -8,7 +8,7 @@ public class Log implements Runnable {
     private final long SAMPLE_TIME = 2000;
     private final String REPORT_FILE_NAME = "log.txt";
 
-    private BookCase bookCase;
+    private final BookCase bookCase;
     private int reportNumber = 1;
 
     //CONSTRUCTOR
@@ -41,7 +41,7 @@ public class Log implements Runnable {
             //take a report sample and print
             String report = this.takeInformation();
 
-            //write a sample in a file
+            //write sample in a file
             this.writeFile(report);
         }while (!bookCase.checkAllBooksReady());
     }
@@ -53,18 +53,12 @@ public class Log implements Runnable {
      * @return [String] report
      * @apiNote Print a information log
      */
+
     private String takeInformation() {
         String report = "";
 
         //Save report
         report += ("----------------------------------\n");
-
-        /*report += ("Report " + this.reportNumber +" |\n"+ "----------" +
-                "\nTotal number of books:   " + bookCase.getNumberOfBooks() +
-                "\nTotal number of books in final version: " + bookCase.getAmountOfBooksInFinalVersion() +
-                "\nTotal number of books ready: " + bookCase.getAmountOfBooksReady() +
-                "\nBooks Stats\n:" + bookCase.getBooksStats() +
-                "\n");*/
 
         report += ("Report " + this.reportNumber +" |\n"+ "----------" +
                 bookCase.getBooksStats() +

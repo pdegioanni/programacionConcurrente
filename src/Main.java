@@ -1,4 +1,3 @@
-import java.util.concurrent.TimeUnit;
 
 public class Main {
     public static void main (String args[]){
@@ -13,15 +12,18 @@ public class Main {
             threadW[i]=new Thread(new Writer(bookCase),"Writer "+i);
             threadW[i].setPriority(Thread.MAX_PRIORITY);
         }
+        // Creates another twenty Threads for readers
         for (int i=0; i< threadR.length; i++){
             threadR[i]=new Thread(new Reader(bookCase),"Reader "+i);
             threadR[i].setPriority(Thread.MIN_PRIORITY);
         }
+
+        // Creates trhread for log
         Log log = new Log(bookCase);
         Thread threadL = new Thread(log);
 
 
-        //check initial time
+        //Checks initial time
         long startTime = System.currentTimeMillis();
 
         // Starts the Threads
@@ -42,50 +44,12 @@ public class Main {
         }
 
 
-        //check finish time
+        //Checks final time when log ends reporting
         try {
             threadL.join();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-    /*
-        log2 log = new log2(bookCase);
-        log.startReport();
-
-        do {
-            //wait 2 seconds
-            try {
-                TimeUnit.MILLISECONDS.sleep(2000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-
-            //take a report sample and print
-            for (int i=0; i< threadW.length; i++){
-                try {
-                    threadW[i].waitForLog();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }
-            for (int i=0; i< threadR.length; i++){
-                try {
-                    threadR[i].waitForLog();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }
-
-            log.takeInformation();*/
-           /* for (int i=0; i< threadW.length; i++){
-            threadW.notifyAll();
-            }
-            for (int i=0; i< threadR.length; i++){
-                threadR.notifyAll();
-                } while (!bookCase.checkAllBooksReady());
-            }*/
-
-
 
         long finishTime = System.currentTimeMillis();
 
