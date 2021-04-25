@@ -59,12 +59,12 @@ public class BookCase {
         int booksReady = 0;
         int booksInFinalVersion =0;
 
-        result.append("\nBooks Stats\n:" );
+        result.append("\nBooks Stats:\n" );
         for(Book book : allBooks){
             if(book.isReady()) {
                 booksReady++;
             }
-            else if(book.isFinalVersion()){
+            if(book.isFinalVersion()){
                 booksInFinalVersion ++;
             }
             result.append("Book ").append(book.getIdNumber()).append(": has ").append(book.getReviews()).append(" reviews and ").append(book.getReads()).append(" reads\n");
@@ -75,7 +75,7 @@ public class BookCase {
         return result.toString();
     }
 
-    public int getAmountOfBooksInFinalVersion(){
+    /*public int getAmountOfBooksInFinalVersion(){
         int booksInFinalVersion = 0;
         for (Book book: allBooks){
             if(book.isFinalVersion()){
@@ -83,9 +83,9 @@ public class BookCase {
             }
         }
         return booksInFinalVersion;
-    }
+    }*/
 
-    public int getAmountOfBooksReady(){
+   /* public int getAmountOfBooksReady(){
         int booksReady = 0;
         for(Book book: allBooks){
             if(book.isReady()) {
@@ -93,7 +93,7 @@ public class BookCase {
             }
         }
         return booksReady;
-    }
+    }*/
 
     public int getNumberOfBooks() {
         return numberOfBooks;

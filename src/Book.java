@@ -1,72 +1,114 @@
+import java.util.Date;
+import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 public class Book {
+
+    //PRIVATE FIELDS
+    //------------------------------------------------------------------------------------------------------------------
     private final int idNumber;
     private final int numberOfWriters;
     private final int numberOfReaders;
     private int reviews;
     private int reads;
-    private  boolean finalVersion;
+    private boolean finalVersion;
     private boolean ready;
-    private Object controlReads;
-    private ReadWriteLock finalVersionLock, readyLock;
+    //private int writersWaiting;
+    private Semaphore writerEntry;
+    private Semaphore readerEntry;
     private ReentrantReadWriteLock bookLock;
-    private int writersWaiting;
+    private ReentrantReadWriteLock finalVersionLock, readyLock;
+    private final Object controlReads;
+    //private final Object controlWritersWaiting;
 
+
+    //CONSTRUCTOR
+    //------------------------------------------------------------------------------------------------------------------
     public Book(int idNumber, int numberOfWriters, int numberOfReaders ){
         this.idNumber = idNumber;
         this.numberOfWriters = numberOfWriters;
         this.numberOfReaders =numberOfReaders;
         reviews = 0;
         reads = 0;
-        ready= false;
         finalVersion =false;
+        ready= false;
+        //writersWaiting = 0;
+        writerEntry = new Semaphore(1, true);
+        //readerEntry = new Semaphore(0);
         bookLock = new ReentrantReadWriteLock(true);
         finalVersionLock = new ReentrantReadWriteLock(true);
         readyLock  = new ReentrantReadWriteLock(true);
+        //writersWritingLock  = new ReentrantReadWriteLock(true);
         controlReads = new Object();
-        writersWaiting = 0;
+        //controlWritersWaiting = new Object();
     }
 
-    public boolean isReady(){
-        bookLock.readLock().lock();
-        boolean r = ready;
-        bookLock.readLock().unlock();
-        return r;
-    }
-
-    public boolean isFinalVersion(){
-        //bookLock.readLock().lock();
-        boolean r = finalVersion;
-        //bookLock.readLock().unlock();
-        return r;
-    }
-
-    public void writeReview(String writerId){
+    //PUBLIC METHODS
+    //------------------------------------------------------------------------------------------------------------------
+    /*public void writeReview(String writerId){
         if(!bookLock.writeLock().tryLock()){
-            writersWaiting ++;
+            writersWaiting(true);
+            System.out.printf("%s %s: waiting to write a review on book %d, writers waiting: %d\n", new Date().getTime(), writerId, this.getIdNumber(), getWritersWaiting());
             bookLock.writeLock().lock();
-            writersWaiting --;
+            writersWaiting(false);
         }
-        System.out.printf("%s: going to write a review on book %d \n",writerId, this.getIdNumber());
+
+        System.out.printf("%s %s: writing a review on book %d\n", new Date().getTime(),writerId, this.getIdNumber());
         reviews ++;
+
         try {
             TimeUnit.MILLISECONDS.sleep((long) (Math.random()*100));
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         finally {
+            System.out.printf("%s %s: a review has been written on book %d \n",new Date().getTime(), writerId, this.getIdNumber());
+            bookLock.writeLock().unlock();
+        }
+        checkFinalVersion();
+    }*/
+    public void writeReview(String writerId){
+        try {
+            writerEntry.acquire();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        //if(!bookLock.writeLock().tryLock()){
+
+            System.out.printf("%s %s: waiting to write a review on book %d, writers waiting: %d\n", new Date().getTime(), writerId, this.getIdNumber(), writerEntry.getQueueLength());
+            //System.out.printf("%s %s: waiting to write a review on book %d, writers waiting: %d\n", new Date().getTime(), writerId, this.getIdNumber(), getWritersWaiting());
+            bookLock.writeLock().lock();
+            writerEntry.release();
+        //writersWaiting(false);
+        //}
+
+       // bookLock.writeLock().lock();
+       /* if(!writerEntry.hasQueuedThreads() && readerEntry.availablePermits() == 0){
+            readerEntry.release(20);
+        }*/
+
+        System.out.printf("%s %s: writing a review on book %d\n", new Date().getTime(),writerId, this.getIdNumber());
+        reviews ++;
+
+        try {
+            TimeUnit.MILLISECONDS.sleep((long) (Math.random()*100));
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        finally {
+            System.out.printf("%s %s: a review has been written on book %d \n",new Date().getTime(), writerId, this.getIdNumber());
+            //writerEntry.release();
             bookLock.writeLock().unlock();
         }
         checkFinalVersion();
     }
 
-    public boolean registerRead(String readerId) {
-        if(writersWaiting == 0){
+    public void registerRead(String readerId) {
+        //if(getWritersWaiting() == 0){
             bookLock.readLock().lock();
-            System.out.printf("%s: going to read final version of book %d \n",readerId, this.getIdNumber());
+            System.out.printf("%s %s: going to read final version of book %d \n",new Date().getTime(), readerId, this.getIdNumber());
             incrementReads();
             try {
                 TimeUnit.MILLISECONDS.sleep((long) (Math.random()*100));
@@ -74,12 +116,49 @@ public class Book {
                 e.printStackTrace();
             }
             finally {
+                System.out.printf("%s %s: a read has been registered on book %d \n",new Date().getTime(),readerId, this.getIdNumber());
                 bookLock.readLock().unlock();
             }
             checkReady();
-            return  true;
+            //return  true;
+        //}
+        //return false;
+    }
+    public void lockPriority(boolean writer, String id){
+        if(writer){
+            try {
+
+                writerEntry.acquire();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            writeReview(id);
         }
-        return false;
+        else{
+            if(readerEntry.tryAcquire()) onlyReadBook(id);
+        }
+    }
+
+    public void onlyReadBook(String readerId){
+        bookLock.readLock().lock();
+        if(!writerEntry.hasQueuedThreads()){
+            System.out.printf("%s %s: reading book %d, writers waiting: %d\n",new Date().getTime(), readerId, this.getIdNumber(), writerEntry.getQueueLength());
+            try {
+                TimeUnit.MILLISECONDS.sleep((long) (Math.random()*100));
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            finally {
+                System.out.printf("%s %s: read book %d, writers waiting: %d\n", new Date().getTime(),readerId, this.getIdNumber(), writerEntry.getQueueLength());
+                readerEntry.release();
+                bookLock.readLock().unlock();
+            }
+        }
+        else{
+            bookLock.readLock().unlock();
+            System.out.printf("%s %s: couldn't read book %d, writers waiting: %d\n",new Date().getTime(),readerId, this.getIdNumber(), writerEntry.getQueueLength());
+        }
+        //readerEntry.release();
     }
 
     public void incrementReads(){
@@ -88,22 +167,19 @@ public class Book {
         }
     }
 
-    public boolean onlyReadBook(String readerId){
-        if(writersWaiting == 0){
-            bookLock.readLock().lock();
-            System.out.printf("%s: going to read book %d (not final version) \n",readerId, this.getIdNumber());
-            try {
-                TimeUnit.MILLISECONDS.sleep((long) (Math.random()*100));
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            finally {
-                bookLock.readLock().unlock();
-            }
-            return true;
-        }
-        return false;
-     }
+    public boolean isReady(){
+        readyLock.readLock().lock();
+        boolean r = ready;
+        readyLock.readLock().unlock();
+        return r;
+    }
+
+    public boolean isFinalVersion(){
+        finalVersionLock.readLock().lock();
+        boolean r = finalVersion;
+        finalVersionLock.readLock().unlock();
+        return r;
+    }
 
     public int getIdNumber() {
         return idNumber;
@@ -123,6 +199,9 @@ public class Book {
         return r;
     }
 
+
+    // PRIVATE METHODS
+    //------------------------------------------------------------------------------------------------------------------
 
     private void checkFinalVersion(){
         bookLock.readLock().lock();
@@ -145,3 +224,34 @@ public class Book {
         }
     }
 }
+
+    //
+    //------------------------------------------------------------------------------------------------------------------
+/*    public void writersWaiting(boolean increment){
+        if(increment) {
+            synchronized (controlWritersWaiting) {
+                writersWaiting++;
+            }
+            *//*writersWritingLock.writeLock().lock();
+            writersWaiting ++;
+            writersWritingLock.writeLock().unlock();*//*
+        }
+        else{
+            synchronized (controlWritersWaiting) {
+                writersWaiting--;
+            }
+            *//*writersWritingLock.writeLock().lock();
+            writersWaiting --;
+            writersWritingLock.writeLock().unlock();*//*
+        }
+    }*/
+/*public int getWritersWaiting() {
+ *//*writersWritingLock.readLock().lock();
+        int r = writersWaiting;
+        writersWritingLock.readLock().unlock();*//*
+        //int r;
+        synchronized (controlWritersWaiting){
+            int r = writersWaiting;
+            return r;
+        }
+    }*/

@@ -11,9 +11,11 @@ public class Main {
         // Creates the first ten Threads for writers
         for (int i=0; i< threadW.length; i++){
             threadW[i]=new Thread(new Writer(bookCase),"Writer "+i);
+            threadW[i].setPriority(Thread.MAX_PRIORITY);
         }
         for (int i=0; i< threadR.length; i++){
             threadR[i]=new Thread(new Reader(bookCase),"Reader "+i);
+            threadR[i].setPriority(Thread.MIN_PRIORITY);
         }
         Log log = new Log(bookCase);
         Thread threadL = new Thread(log);

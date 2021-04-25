@@ -4081,3 +4081,3213 @@ Total number of books in final version: 0
 Total number of books ready: 24
 ----------------------------------
 
+##########################################
+Sun Apr 25 11:37:29 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+##########################################
+Sun Apr 25 11:38:00 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+##########################################
+Sun Apr 25 11:39:03 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats
+:Book 0: has 8 reviews and 0 reads
+Book 1: has 8 reviews and 0 reads
+Book 2: has 8 reviews and 0 reads
+Book 3: has 10 reviews and 0 reads
+Book 4: has 7 reviews and 0 reads
+Book 5: has 6 reviews and 0 reads
+Book 6: has 9 reviews and 0 reads
+Book 7: has 8 reviews and 0 reads
+Book 8: has 8 reviews and 0 reads
+Book 9: has 10 reviews and 3 reads
+Book 10: has 9 reviews and 0 reads
+Book 11: has 10 reviews and 0 reads
+Book 12: has 10 reviews and 0 reads
+Book 13: has 10 reviews and 2 reads
+Book 14: has 9 reviews and 0 reads
+Book 15: has 8 reviews and 0 reads
+Book 16: has 8 reviews and 0 reads
+Book 17: has 10 reviews and 4 reads
+Book 18: has 10 reviews and 9 reads
+Book 19: has 10 reviews and 0 reads
+Book 20: has 10 reviews and 0 reads
+Book 21: has 10 reviews and 0 reads
+Book 22: has 10 reviews and 5 reads
+Book 23: has 10 reviews and 1 reads
+Total number of books:   24
+Total number of books in final version: 8
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 2 |
+----------
+Books Stats
+:Book 0: has 10 reviews and 17 reads
+Book 1: has 10 reviews and 19 reads
+Book 2: has 10 reviews and 17 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 17 reads
+Book 5: has 10 reviews and 16 reads
+Book 6: has 10 reviews and 16 reads
+Book 7: has 10 reviews and 13 reads
+Book 8: has 10 reviews and 17 reads
+Book 9: has 10 reviews and 16 reads
+Book 10: has 10 reviews and 16 reads
+Book 11: has 10 reviews and 18 reads
+Book 12: has 10 reviews and 16 reads
+Book 13: has 10 reviews and 19 reads
+Book 14: has 10 reviews and 15 reads
+Book 15: has 10 reviews and 14 reads
+Book 16: has 10 reviews and 17 reads
+Book 17: has 10 reviews and 16 reads
+Book 18: has 10 reviews and 18 reads
+Book 19: has 10 reviews and 18 reads
+Book 20: has 10 reviews and 17 reads
+Book 21: has 10 reviews and 19 reads
+Book 22: has 10 reviews and 18 reads
+Book 23: has 10 reviews and 16 reads
+Total number of books:   24
+Total number of books in final version: 23
+Total number of books ready: 1
+----------------------------------
+
+----------------------------------
+Report 3 |
+----------
+Books Stats
+:Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 19 reads
+Book 7: has 10 reviews and 19 reads
+Book 8: has 10 reviews and 19 reads
+Book 9: has 10 reviews and 19 reads
+Book 10: has 10 reviews and 19 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 19 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 19 reads
+Book 15: has 10 reviews and 19 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 10
+Total number of books ready: 14
+----------------------------------
+
+----------------------------------
+Report 4 |
+----------
+Books Stats
+:Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 24
+----------------------------------
+
+##########################################
+Sun Apr 25 11:42:24 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 9 reviews and 0 reads
+Book 1: has 9 reviews and 0 reads
+Book 2: has 10 reviews and 2 reads
+Book 3: has 10 reviews and 4 reads
+Book 4: has 8 reviews and 0 reads
+Book 5: has 9 reviews and 0 reads
+Book 6: has 8 reviews and 0 reads
+Book 7: has 10 reviews and 0 reads
+Book 8: has 8 reviews and 0 reads
+Book 9: has 8 reviews and 0 reads
+Book 10: has 9 reviews and 0 reads
+Book 11: has 10 reviews and 1 reads
+Book 12: has 10 reviews and 2 reads
+Book 13: has 10 reviews and 2 reads
+Book 14: has 10 reviews and 2 reads
+Book 15: has 10 reviews and 1 reads
+Book 16: has 9 reviews and 0 reads
+Book 17: has 10 reviews and 3 reads
+Book 18: has 10 reviews and 5 reads
+Book 19: has 10 reviews and 5 reads
+Book 20: has 10 reviews and 1 reads
+Book 21: has 9 reviews and 0 reads
+Book 22: has 9 reviews and 0 reads
+Book 23: has 10 reviews and 1 reads
+Total number of books:   24
+Total number of books in final version: 13
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 2 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 17 reads
+Book 1: has 10 reviews and 19 reads
+Book 2: has 10 reviews and 19 reads
+Book 3: has 10 reviews and 18 reads
+Book 4: has 10 reviews and 18 reads
+Book 5: has 10 reviews and 18 reads
+Book 6: has 10 reviews and 13 reads
+Book 7: has 10 reviews and 19 reads
+Book 8: has 10 reviews and 16 reads
+Book 9: has 10 reviews and 19 reads
+Book 10: has 10 reviews and 16 reads
+Book 11: has 10 reviews and 15 reads
+Book 12: has 10 reviews and 17 reads
+Book 13: has 10 reviews and 16 reads
+Book 14: has 10 reviews and 19 reads
+Book 15: has 10 reviews and 17 reads
+Book 16: has 10 reviews and 16 reads
+Book 17: has 10 reviews and 16 reads
+Book 18: has 10 reviews and 16 reads
+Book 19: has 10 reviews and 19 reads
+Book 20: has 10 reviews and 16 reads
+Book 21: has 10 reviews and 18 reads
+Book 22: has 10 reviews and 14 reads
+Book 23: has 10 reviews and 19 reads
+Total number of books:   24
+Total number of books in final version: 24
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 3 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 19 reads
+Total number of books:   24
+Total number of books in final version: 2
+Total number of books ready: 22
+----------------------------------
+
+----------------------------------
+Report 4 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 24
+----------------------------------
+
+##########################################
+Sun Apr 25 11:43:19 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 9 reviews and 0 reads
+Book 1: has 9 reviews and 0 reads
+Book 2: has 10 reviews and 3 reads
+Book 3: has 8 reviews and 0 reads
+Book 4: has 8 reviews and 0 reads
+Book 5: has 8 reviews and 0 reads
+Book 6: has 8 reviews and 0 reads
+Book 7: has 10 reviews and 3 reads
+Book 8: has 8 reviews and 0 reads
+Book 9: has 10 reviews and 4 reads
+Book 10: has 9 reviews and 0 reads
+Book 11: has 9 reviews and 0 reads
+Book 12: has 10 reviews and 0 reads
+Book 13: has 10 reviews and 5 reads
+Book 14: has 9 reviews and 0 reads
+Book 15: has 10 reviews and 0 reads
+Book 16: has 10 reviews and 2 reads
+Book 17: has 10 reviews and 0 reads
+Book 18: has 10 reviews and 0 reads
+Book 19: has 9 reviews and 0 reads
+Book 20: has 10 reviews and 3 reads
+Book 21: has 9 reviews and 0 reads
+Book 22: has 10 reviews and 2 reads
+Book 23: has 9 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 11
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 2 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 17 reads
+Book 1: has 10 reviews and 16 reads
+Book 2: has 10 reviews and 19 reads
+Book 3: has 10 reviews and 19 reads
+Book 4: has 10 reviews and 16 reads
+Book 5: has 10 reviews and 18 reads
+Book 6: has 10 reviews and 15 reads
+Book 7: has 10 reviews and 15 reads
+Book 8: has 10 reviews and 16 reads
+Book 9: has 10 reviews and 16 reads
+Book 10: has 10 reviews and 19 reads
+Book 11: has 10 reviews and 12 reads
+Book 12: has 10 reviews and 18 reads
+Book 13: has 10 reviews and 17 reads
+Book 14: has 10 reviews and 14 reads
+Book 15: has 10 reviews and 16 reads
+Book 16: has 10 reviews and 18 reads
+Book 17: has 10 reviews and 18 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 16 reads
+Book 20: has 10 reviews and 17 reads
+Book 21: has 10 reviews and 16 reads
+Book 22: has 10 reviews and 16 reads
+Book 23: has 10 reviews and 18 reads
+Total number of books:   24
+Total number of books in final version: 24
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 3 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 19 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 19 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 4
+Total number of books ready: 20
+----------------------------------
+
+----------------------------------
+Report 4 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 24
+----------------------------------
+
+##########################################
+Sun Apr 25 11:45:19 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 9 reviews and 0 reads
+Book 1: has 9 reviews and 0 reads
+Book 2: has 7 reviews and 0 reads
+Book 3: has 9 reviews and 0 reads
+Book 4: has 7 reviews and 0 reads
+Book 5: has 8 reviews and 0 reads
+Book 6: has 10 reviews and 1 reads
+Book 7: has 8 reviews and 0 reads
+Book 8: has 10 reviews and 6 reads
+Book 9: has 10 reviews and 0 reads
+Book 10: has 9 reviews and 0 reads
+Book 11: has 8 reviews and 0 reads
+Book 12: has 10 reviews and 8 reads
+Book 13: has 10 reviews and 8 reads
+Book 14: has 7 reviews and 0 reads
+Book 15: has 10 reviews and 1 reads
+Book 16: has 9 reviews and 0 reads
+Book 17: has 9 reviews and 0 reads
+Book 18: has 10 reviews and 0 reads
+Book 19: has 10 reviews and 8 reads
+Book 20: has 7 reviews and 0 reads
+Book 21: has 10 reviews and 0 reads
+Book 22: has 10 reviews and 0 reads
+Book 23: has 9 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 8
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 2 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 14 reads
+Book 1: has 10 reviews and 12 reads
+Book 2: has 10 reviews and 17 reads
+Book 3: has 10 reviews and 17 reads
+Book 4: has 10 reviews and 10 reads
+Book 5: has 10 reviews and 15 reads
+Book 6: has 10 reviews and 18 reads
+Book 7: has 10 reviews and 16 reads
+Book 8: has 10 reviews and 18 reads
+Book 9: has 10 reviews and 14 reads
+Book 10: has 10 reviews and 18 reads
+Book 11: has 10 reviews and 16 reads
+Book 12: has 10 reviews and 18 reads
+Book 13: has 10 reviews and 16 reads
+Book 14: has 10 reviews and 18 reads
+Book 15: has 10 reviews and 17 reads
+Book 16: has 10 reviews and 14 reads
+Book 17: has 10 reviews and 18 reads
+Book 18: has 10 reviews and 17 reads
+Book 19: has 10 reviews and 19 reads
+Book 20: has 10 reviews and 16 reads
+Book 21: has 10 reviews and 15 reads
+Book 22: has 10 reviews and 17 reads
+Book 23: has 10 reviews and 16 reads
+Total number of books:   24
+Total number of books in final version: 24
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 3 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 19 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 3
+Total number of books ready: 21
+----------------------------------
+
+----------------------------------
+Report 4 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 24
+----------------------------------
+
+##########################################
+Sun Apr 25 12:00:04 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 8 reviews and 0 reads
+Book 1: has 8 reviews and 0 reads
+Book 2: has 10 reviews and 0 reads
+Book 3: has 7 reviews and 0 reads
+Book 4: has 8 reviews and 0 reads
+Book 5: has 9 reviews and 0 reads
+Book 6: has 9 reviews and 0 reads
+Book 7: has 9 reviews and 0 reads
+Book 8: has 7 reviews and 0 reads
+Book 9: has 8 reviews and 0 reads
+Book 10: has 8 reviews and 0 reads
+Book 11: has 9 reviews and 0 reads
+Book 12: has 8 reviews and 0 reads
+Book 13: has 10 reviews and 0 reads
+Book 14: has 9 reviews and 0 reads
+Book 15: has 10 reviews and 0 reads
+Book 16: has 9 reviews and 0 reads
+Book 17: has 9 reviews and 0 reads
+Book 18: has 9 reviews and 0 reads
+Book 19: has 10 reviews and 4 reads
+Book 20: has 9 reviews and 0 reads
+Book 21: has 9 reviews and 0 reads
+Book 22: has 10 reviews and 10 reads
+Book 23: has 9 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 3
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 2 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 15 reads
+Book 1: has 10 reviews and 17 reads
+Book 2: has 10 reviews and 17 reads
+Book 3: has 10 reviews and 16 reads
+Book 4: has 10 reviews and 15 reads
+Book 5: has 10 reviews and 17 reads
+Book 6: has 10 reviews and 15 reads
+Book 7: has 10 reviews and 18 reads
+Book 8: has 10 reviews and 16 reads
+Book 9: has 10 reviews and 17 reads
+Book 10: has 10 reviews and 14 reads
+Book 11: has 10 reviews and 14 reads
+Book 12: has 10 reviews and 16 reads
+Book 13: has 10 reviews and 18 reads
+Book 14: has 10 reviews and 16 reads
+Book 15: has 10 reviews and 15 reads
+Book 16: has 10 reviews and 14 reads
+Book 17: has 10 reviews and 18 reads
+Book 18: has 10 reviews and 16 reads
+Book 19: has 10 reviews and 18 reads
+Book 20: has 10 reviews and 16 reads
+Book 21: has 10 reviews and 17 reads
+Book 22: has 10 reviews and 18 reads
+Book 23: has 10 reviews and 14 reads
+Total number of books:   24
+Total number of books in final version: 24
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 3 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 19 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 19 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 19 reads
+Book 13: has 10 reviews and 19 reads
+Book 14: has 10 reviews and 19 reads
+Book 15: has 10 reviews and 18 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 19 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 19 reads
+Total number of books:   24
+Total number of books in final version: 10
+Total number of books ready: 14
+----------------------------------
+
+----------------------------------
+Report 4 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 24
+----------------------------------
+
+##########################################
+Sun Apr 25 12:54:25 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 7 reviews and 0 reads
+Book 1: has 8 reviews and 0 reads
+Book 2: has 7 reviews and 0 reads
+Book 3: has 9 reviews and 0 reads
+Book 4: has 9 reviews and 0 reads
+Book 5: has 6 reviews and 0 reads
+Book 6: has 9 reviews and 0 reads
+Book 7: has 10 reviews and 1 reads
+Book 8: has 10 reviews and 2 reads
+Book 9: has 7 reviews and 0 reads
+Book 10: has 3 reviews and 0 reads
+Book 11: has 8 reviews and 0 reads
+Book 12: has 7 reviews and 0 reads
+Book 13: has 7 reviews and 0 reads
+Book 14: has 9 reviews and 0 reads
+Book 15: has 8 reviews and 0 reads
+Book 16: has 9 reviews and 0 reads
+Book 17: has 9 reviews and 0 reads
+Book 18: has 8 reviews and 0 reads
+Book 19: has 10 reviews and 7 reads
+Book 20: has 7 reviews and 0 reads
+Book 21: has 10 reviews and 0 reads
+Book 22: has 10 reviews and 4 reads
+Book 23: has 10 reviews and 1 reads
+Total number of books:   24
+Total number of books in final version: 5
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 2 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 17 reads
+Book 1: has 10 reviews and 17 reads
+Book 2: has 10 reviews and 14 reads
+Book 3: has 10 reviews and 17 reads
+Book 4: has 10 reviews and 16 reads
+Book 5: has 10 reviews and 15 reads
+Book 6: has 10 reviews and 16 reads
+Book 7: has 10 reviews and 17 reads
+Book 8: has 10 reviews and 17 reads
+Book 9: has 10 reviews and 17 reads
+Book 10: has 10 reviews and 16 reads
+Book 11: has 10 reviews and 15 reads
+Book 12: has 10 reviews and 15 reads
+Book 13: has 10 reviews and 16 reads
+Book 14: has 10 reviews and 16 reads
+Book 15: has 10 reviews and 19 reads
+Book 16: has 10 reviews and 16 reads
+Book 17: has 10 reviews and 17 reads
+Book 18: has 10 reviews and 12 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 18 reads
+Book 21: has 10 reviews and 17 reads
+Book 22: has 10 reviews and 18 reads
+Book 23: has 10 reviews and 18 reads
+Total number of books:   24
+Total number of books in final version: 23
+Total number of books ready: 1
+----------------------------------
+
+----------------------------------
+Report 3 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 19 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 19 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 19 reads
+Book 12: has 10 reviews and 19 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 19 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 7
+Total number of books ready: 17
+----------------------------------
+
+----------------------------------
+Report 4 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 24
+----------------------------------
+
+##########################################
+Sun Apr 25 13:24:38 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 0
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 13:29:04 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 0 reads
+Total number of books:   1
+Total number of books in final version: 1
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 2 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 0 reads
+Total number of books:   1
+Total number of books in final version: 1
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 3 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 0 reads
+Total number of books:   1
+Total number of books in final version: 1
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 4 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 0 reads
+Total number of books:   1
+Total number of books in final version: 1
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 5 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 0 reads
+Total number of books:   1
+Total number of books in final version: 1
+Total number of books ready: 0
+----------------------------------
+
+##########################################
+Sun Apr 25 13:30:11 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 0 reads
+Total number of books:   1
+Total number of books in final version: 1
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 2 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 0 reads
+Total number of books:   1
+Total number of books in final version: 1
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 3 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 0 reads
+Total number of books:   1
+Total number of books in final version: 1
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 4 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 0 reads
+Total number of books:   1
+Total number of books in final version: 1
+Total number of books ready: 0
+----------------------------------
+
+##########################################
+Sun Apr 25 13:35:25 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 0
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 13:36:43 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 0
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 13:43:22 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 0
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 13:44:29 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 0
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 13:45:49 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 0
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 13:50:58 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 0
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 13:53:07 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 0
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 13:55:36 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 0
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 13:58:19 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 0
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 14:02:09 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 0
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 14:05:22 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 0
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 14:14:01 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 0
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 14:23:46 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 0
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 14:27:08 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 0
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 14:30:00 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 0
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 15:20:28 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 0
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 15:21:09 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 0
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 15:24:12 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 0
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 15:24:54 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 0
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 15:29:02 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 0
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 15:29:40 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 8 reviews and 0 reads
+Book 1: has 10 reviews and 3 reads
+Book 2: has 9 reviews and 0 reads
+Book 3: has 9 reviews and 0 reads
+Book 4: has 10 reviews and 8 reads
+Book 5: has 9 reviews and 0 reads
+Book 6: has 9 reviews and 0 reads
+Book 7: has 9 reviews and 0 reads
+Book 8: has 10 reviews and 1 reads
+Book 9: has 10 reviews and 0 reads
+Book 10: has 10 reviews and 0 reads
+Book 11: has 9 reviews and 0 reads
+Book 12: has 10 reviews and 0 reads
+Book 13: has 10 reviews and 0 reads
+Book 14: has 9 reviews and 0 reads
+Book 15: has 10 reviews and 0 reads
+Book 16: has 10 reviews and 6 reads
+Book 17: has 8 reviews and 0 reads
+Book 18: has 10 reviews and 0 reads
+Book 19: has 10 reviews and 0 reads
+Book 20: has 9 reviews and 0 reads
+Book 21: has 10 reviews and 1 reads
+Book 22: has 10 reviews and 0 reads
+Book 23: has 10 reviews and 1 reads
+Total number of books:   24
+Total number of books in final version: 10
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 2 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 12 reads
+Book 1: has 10 reviews and 16 reads
+Book 2: has 10 reviews and 17 reads
+Book 3: has 10 reviews and 19 reads
+Book 4: has 10 reviews and 19 reads
+Book 5: has 10 reviews and 17 reads
+Book 6: has 10 reviews and 15 reads
+Book 7: has 10 reviews and 19 reads
+Book 8: has 10 reviews and 16 reads
+Book 9: has 10 reviews and 17 reads
+Book 10: has 10 reviews and 14 reads
+Book 11: has 10 reviews and 16 reads
+Book 12: has 10 reviews and 17 reads
+Book 13: has 10 reviews and 18 reads
+Book 14: has 10 reviews and 18 reads
+Book 15: has 10 reviews and 19 reads
+Book 16: has 10 reviews and 18 reads
+Book 17: has 10 reviews and 15 reads
+Book 18: has 10 reviews and 16 reads
+Book 19: has 10 reviews and 18 reads
+Book 20: has 10 reviews and 13 reads
+Book 21: has 10 reviews and 16 reads
+Book 22: has 10 reviews and 16 reads
+Book 23: has 10 reviews and 17 reads
+Total number of books:   24
+Total number of books in final version: 24
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 3 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 19 reads
+Book 2: has 10 reviews and 19 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 18 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 19 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 18 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 17 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 7
+Total number of books ready: 17
+----------------------------------
+
+----------------------------------
+Report 4 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 19 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 1
+Total number of books ready: 23
+----------------------------------
+
+----------------------------------
+Report 5 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 24
+----------------------------------
+
+##########################################
+Sun Apr 25 15:30:52 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 0
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 15:33:22 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 2 reads
+Book 1: has 10 reviews and 4 reads
+Book 2: has 10 reviews and 3 reads
+Book 3: has 10 reviews and 5 reads
+Book 4: has 10 reviews and 1 reads
+Book 5: has 7 reviews and 0 reads
+Book 6: has 10 reviews and 0 reads
+Book 7: has 8 reviews and 0 reads
+Book 8: has 10 reviews and 1 reads
+Book 9: has 10 reviews and 1 reads
+Book 10: has 9 reviews and 0 reads
+Book 11: has 10 reviews and 4 reads
+Book 12: has 10 reviews and 6 reads
+Book 13: has 10 reviews and 4 reads
+Book 14: has 10 reviews and 6 reads
+Book 15: has 10 reviews and 0 reads
+Book 16: has 10 reviews and 0 reads
+Book 17: has 10 reviews and 8 reads
+Book 18: has 10 reviews and 6 reads
+Book 19: has 10 reviews and 0 reads
+Book 20: has 10 reviews and 0 reads
+Book 21: has 10 reviews and 6 reads
+Book 22: has 10 reviews and 7 reads
+Book 23: has 10 reviews and 2 reads
+Total number of books:   24
+Total number of books in final version: 18
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 2 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 17 reads
+Book 1: has 10 reviews and 18 reads
+Book 2: has 10 reviews and 18 reads
+Book 3: has 10 reviews and 17 reads
+Book 4: has 10 reviews and 17 reads
+Book 5: has 10 reviews and 16 reads
+Book 6: has 10 reviews and 13 reads
+Book 7: has 10 reviews and 19 reads
+Book 8: has 10 reviews and 17 reads
+Book 9: has 10 reviews and 17 reads
+Book 10: has 10 reviews and 16 reads
+Book 11: has 10 reviews and 19 reads
+Book 12: has 10 reviews and 19 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 16 reads
+Book 15: has 10 reviews and 16 reads
+Book 16: has 10 reviews and 19 reads
+Book 17: has 10 reviews and 18 reads
+Book 18: has 10 reviews and 15 reads
+Book 19: has 10 reviews and 16 reads
+Book 20: has 10 reviews and 14 reads
+Book 21: has 10 reviews and 17 reads
+Book 22: has 10 reviews and 17 reads
+Book 23: has 10 reviews and 17 reads
+Total number of books:   24
+Total number of books in final version: 24
+Total number of books ready: 1
+----------------------------------
+
+----------------------------------
+Report 3 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 19 reads
+Book 4: has 10 reviews and 18 reads
+Book 5: has 10 reviews and 19 reads
+Book 6: has 10 reviews and 19 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 19 reads
+Book 9: has 10 reviews and 19 reads
+Book 10: has 10 reviews and 19 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 19 reads
+Book 19: has 10 reviews and 19 reads
+Book 20: has 10 reviews and 19 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 24
+Total number of books ready: 14
+----------------------------------
+
+----------------------------------
+Report 4 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 24
+Total number of books ready: 24
+----------------------------------
+
+##########################################
+Sun Apr 25 15:36:03 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 4 reads
+Book 1: has 9 reviews and 0 reads
+Book 2: has 9 reviews and 0 reads
+Book 3: has 9 reviews and 0 reads
+Book 4: has 8 reviews and 0 reads
+Book 5: has 9 reviews and 0 reads
+Book 6: has 10 reviews and 3 reads
+Book 7: has 9 reviews and 0 reads
+Book 8: has 8 reviews and 0 reads
+Book 9: has 10 reviews and 5 reads
+Book 10: has 9 reviews and 0 reads
+Book 11: has 9 reviews and 0 reads
+Book 12: has 8 reviews and 0 reads
+Book 13: has 10 reviews and 0 reads
+Book 14: has 10 reviews and 0 reads
+Book 15: has 9 reviews and 0 reads
+Book 16: has 10 reviews and 3 reads
+Book 17: has 9 reviews and 0 reads
+Book 18: has 9 reviews and 0 reads
+Book 19: has 10 reviews and 0 reads
+Book 20: has 10 reviews and 1 reads
+Book 21: has 10 reviews and 4 reads
+Book 22: has 9 reviews and 0 reads
+Book 23: has 10 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 7
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 2 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 17 reads
+Book 1: has 10 reviews and 16 reads
+Book 2: has 10 reviews and 18 reads
+Book 3: has 10 reviews and 15 reads
+Book 4: has 10 reviews and 19 reads
+Book 5: has 10 reviews and 18 reads
+Book 6: has 10 reviews and 16 reads
+Book 7: has 10 reviews and 19 reads
+Book 8: has 10 reviews and 17 reads
+Book 9: has 10 reviews and 19 reads
+Book 10: has 10 reviews and 17 reads
+Book 11: has 10 reviews and 17 reads
+Book 12: has 10 reviews and 17 reads
+Book 13: has 10 reviews and 12 reads
+Book 14: has 10 reviews and 16 reads
+Book 15: has 10 reviews and 18 reads
+Book 16: has 10 reviews and 19 reads
+Book 17: has 10 reviews and 15 reads
+Book 18: has 10 reviews and 14 reads
+Book 19: has 10 reviews and 10 reads
+Book 20: has 10 reviews and 18 reads
+Book 21: has 10 reviews and 18 reads
+Book 22: has 10 reviews and 15 reads
+Book 23: has 10 reviews and 16 reads
+Total number of books:   24
+Total number of books in final version: 24
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 3 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 19 reads
+Book 3: has 10 reviews and 19 reads
+Book 4: has 10 reviews and 19 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 19 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 19 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 19 reads
+Book 18: has 10 reviews and 17 reads
+Book 19: has 10 reviews and 18 reads
+Book 20: has 10 reviews and 19 reads
+Book 21: has 10 reviews and 18 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 24
+Total number of books ready: 14
+----------------------------------
+
+----------------------------------
+Report 4 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 19 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 19 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 24
+Total number of books ready: 22
+----------------------------------
+
+----------------------------------
+Report 5 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 24
+Total number of books ready: 24
+----------------------------------
+
+##########################################
+Sun Apr 25 15:57:02 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 1
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 16:27:49 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 1
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 16:28:01 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 9 reviews and 0 reads
+Book 1: has 9 reviews and 0 reads
+Book 2: has 10 reviews and 3 reads
+Book 3: has 7 reviews and 0 reads
+Book 4: has 8 reviews and 0 reads
+Book 5: has 9 reviews and 0 reads
+Book 6: has 10 reviews and 3 reads
+Book 7: has 9 reviews and 0 reads
+Book 8: has 10 reviews and 3 reads
+Book 9: has 10 reviews and 5 reads
+Book 10: has 10 reviews and 2 reads
+Book 11: has 9 reviews and 0 reads
+Book 12: has 10 reviews and 0 reads
+Book 13: has 8 reviews and 0 reads
+Book 14: has 10 reviews and 3 reads
+Book 15: has 9 reviews and 0 reads
+Book 16: has 9 reviews and 0 reads
+Book 17: has 9 reviews and 0 reads
+Book 18: has 8 reviews and 0 reads
+Book 19: has 10 reviews and 6 reads
+Book 20: has 10 reviews and 2 reads
+Book 21: has 9 reviews and 0 reads
+Book 22: has 9 reviews and 0 reads
+Book 23: has 10 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 10
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 2 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 17 reads
+Book 1: has 10 reviews and 16 reads
+Book 2: has 10 reviews and 17 reads
+Book 3: has 10 reviews and 15 reads
+Book 4: has 10 reviews and 17 reads
+Book 5: has 10 reviews and 19 reads
+Book 6: has 10 reviews and 16 reads
+Book 7: has 10 reviews and 17 reads
+Book 8: has 10 reviews and 19 reads
+Book 9: has 10 reviews and 16 reads
+Book 10: has 10 reviews and 18 reads
+Book 11: has 10 reviews and 14 reads
+Book 12: has 10 reviews and 16 reads
+Book 13: has 10 reviews and 13 reads
+Book 14: has 10 reviews and 17 reads
+Book 15: has 10 reviews and 17 reads
+Book 16: has 10 reviews and 16 reads
+Book 17: has 10 reviews and 15 reads
+Book 18: has 10 reviews and 15 reads
+Book 19: has 10 reviews and 17 reads
+Book 20: has 10 reviews and 17 reads
+Book 21: has 10 reviews and 18 reads
+Book 22: has 10 reviews and 18 reads
+Book 23: has 10 reviews and 14 reads
+Total number of books:   24
+Total number of books in final version: 24
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 3 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 17 reads
+Book 2: has 10 reviews and 19 reads
+Book 3: has 10 reviews and 19 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 18 reads
+Book 7: has 10 reviews and 18 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 19 reads
+Book 12: has 10 reviews and 17 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 19 reads
+Book 15: has 10 reviews and 18 reads
+Book 16: has 10 reviews and 19 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 19 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 19 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 19 reads
+Total number of books:   24
+Total number of books in final version: 24
+Total number of books ready: 11
+----------------------------------
+
+----------------------------------
+Report 4 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 19 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 19 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 19 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 19 reads
+Book 16: has 10 reviews and 19 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 19 reads
+Total number of books:   24
+Total number of books in final version: 24
+Total number of books ready: 18
+----------------------------------
+
+----------------------------------
+Report 5 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 19 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 24
+Total number of books ready: 23
+----------------------------------
+
+----------------------------------
+Report 6 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 24
+Total number of books ready: 24
+----------------------------------
+
+##########################################
+Sun Apr 25 17:34:14 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 9 reviews and 0 reads
+Book 1: has 8 reviews and 0 reads
+Book 2: has 8 reviews and 0 reads
+Book 3: has 8 reviews and 0 reads
+Book 4: has 8 reviews and 0 reads
+Book 5: has 9 reviews and 0 reads
+Book 6: has 10 reviews and 5 reads
+Book 7: has 10 reviews and 4 reads
+Book 8: has 10 reviews and 0 reads
+Book 9: has 9 reviews and 0 reads
+Book 10: has 8 reviews and 0 reads
+Book 11: has 10 reviews and 0 reads
+Book 12: has 10 reviews and 0 reads
+Book 13: has 9 reviews and 0 reads
+Book 14: has 9 reviews and 0 reads
+Book 15: has 10 reviews and 0 reads
+Book 16: has 10 reviews and 3 reads
+Book 17: has 10 reviews and 1 reads
+Book 18: has 9 reviews and 0 reads
+Book 19: has 10 reviews and 3 reads
+Book 20: has 9 reviews and 0 reads
+Book 21: has 10 reviews and 5 reads
+Book 22: has 10 reviews and 5 reads
+Book 23: has 10 reviews and 2 reads
+Total number of books:   24
+Total number of books in final version: 9
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 2 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 24
+Total number of books ready: 24
+----------------------------------
+
+##########################################
+Sun Apr 25 17:34:43 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 3 reads
+Total number of books:   1
+Total number of books in final version: 1
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 2 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 1
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 17:35:56 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 1
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 17:39:05 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Total number of books:   5
+Total number of books in final version: 5
+Total number of books ready: 5
+----------------------------------
+
+##########################################
+Sun Apr 25 17:39:43 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Total number of books:   5
+Total number of books in final version: 5
+Total number of books ready: 5
+----------------------------------
+
+##########################################
+Sun Apr 25 17:50:14 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 1
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 17:51:29 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 1
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 17:51:42 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 1
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 17:51:59 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 1
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 17:52:49 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 1
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 17:54:58 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 1
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 17:58:14 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+##########################################
+Sun Apr 25 17:58:49 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+##########################################
+Sun Apr 25 17:59:31 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 1
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 18:06:02 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Total number of books:   1
+Total number of books in final version: 1
+Total number of books ready: 1
+----------------------------------
+
+##########################################
+Sun Apr 25 18:07:03 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 9 reviews and 0 reads
+Book 1: has 10 reviews and 0 reads
+Book 2: has 10 reviews and 0 reads
+Book 3: has 6 reviews and 0 reads
+Book 4: has 10 reviews and 1 reads
+Book 5: has 9 reviews and 0 reads
+Book 6: has 8 reviews and 0 reads
+Book 7: has 9 reviews and 0 reads
+Book 8: has 10 reviews and 1 reads
+Book 9: has 8 reviews and 0 reads
+Book 10: has 10 reviews and 0 reads
+Book 11: has 8 reviews and 0 reads
+Book 12: has 8 reviews and 0 reads
+Book 13: has 9 reviews and 0 reads
+Book 14: has 9 reviews and 0 reads
+Book 15: has 10 reviews and 0 reads
+Book 16: has 10 reviews and 3 reads
+Book 17: has 10 reviews and 8 reads
+Book 18: has 9 reviews and 0 reads
+Book 19: has 10 reviews and 8 reads
+Book 20: has 10 reviews and 4 reads
+Book 21: has 9 reviews and 0 reads
+Book 22: has 10 reviews and 0 reads
+Book 23: has 10 reviews and 3 reads
+Total number of books:   24
+Total number of books in final version: 9
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 2 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 24
+Total number of books ready: 24
+----------------------------------
+
+##########################################
+Sun Apr 25 18:08:04 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 8 reviews and 0 reads
+Book 1: has 5 reviews and 0 reads
+Book 2: has 8 reviews and 0 reads
+Book 3: has 9 reviews and 0 reads
+Book 4: has 8 reviews and 0 reads
+Book 5: has 9 reviews and 0 reads
+Book 6: has 6 reviews and 0 reads
+Book 7: has 7 reviews and 0 reads
+Book 8: has 7 reviews and 0 reads
+Book 9: has 10 reviews and 0 reads
+Book 10: has 9 reviews and 0 reads
+Book 11: has 10 reviews and 1 reads
+Book 12: has 10 reviews and 12 reads
+Book 13: has 10 reviews and 1 reads
+Book 14: has 9 reviews and 0 reads
+Book 15: has 8 reviews and 0 reads
+Book 16: has 10 reviews and 2 reads
+Book 17: has 10 reviews and 0 reads
+Book 18: has 10 reviews and 10 reads
+Book 19: has 9 reviews and 0 reads
+Book 20: has 9 reviews and 0 reads
+Book 21: has 10 reviews and 10 reads
+Book 22: has 9 reviews and 0 reads
+Book 23: has 10 reviews and 3 reads
+Total number of books:   24
+Total number of books in final version: 8
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 2 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 24
+Total number of books ready: 24
+----------------------------------
+
+##########################################
+Sun Apr 25 18:20:04 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 9 reviews and 0 reads
+Book 1: has 9 reviews and 0 reads
+Book 2: has 6 reviews and 0 reads
+Book 3: has 8 reviews and 0 reads
+Book 4: has 10 reviews and 0 reads
+Book 5: has 9 reviews and 0 reads
+Book 6: has 8 reviews and 0 reads
+Book 7: has 10 reviews and 0 reads
+Book 8: has 8 reviews and 0 reads
+Book 9: has 10 reviews and 5 reads
+Book 10: has 9 reviews and 0 reads
+Book 11: has 9 reviews and 0 reads
+Book 12: has 9 reviews and 0 reads
+Book 13: has 8 reviews and 0 reads
+Book 14: has 9 reviews and 0 reads
+Book 15: has 10 reviews and 5 reads
+Book 16: has 8 reviews and 0 reads
+Book 17: has 10 reviews and 3 reads
+Book 18: has 10 reviews and 6 reads
+Book 19: has 9 reviews and 0 reads
+Book 20: has 9 reviews and 0 reads
+Book 21: has 10 reviews and 1 reads
+Book 22: has 9 reviews and 0 reads
+Book 23: has 10 reviews and 1 reads
+Total number of books:   24
+Total number of books in final version: 7
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 2 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 24
+Total number of books ready: 24
+----------------------------------
+
+##########################################
+Sun Apr 25 18:24:11 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 7 reviews and 0 reads
+Book 1: has 9 reviews and 0 reads
+Book 2: has 7 reviews and 0 reads
+Book 3: has 9 reviews and 0 reads
+Book 4: has 9 reviews and 0 reads
+Book 5: has 10 reviews and 1 reads
+Book 6: has 9 reviews and 0 reads
+Book 7: has 10 reviews and 1 reads
+Book 8: has 8 reviews and 0 reads
+Book 9: has 8 reviews and 0 reads
+Book 10: has 8 reviews and 0 reads
+Book 11: has 9 reviews and 0 reads
+Book 12: has 9 reviews and 0 reads
+Book 13: has 8 reviews and 0 reads
+Book 14: has 9 reviews and 0 reads
+Book 15: has 9 reviews and 0 reads
+Book 16: has 8 reviews and 0 reads
+Book 17: has 8 reviews and 0 reads
+Book 18: has 10 reviews and 0 reads
+Book 19: has 10 reviews and 0 reads
+Book 20: has 10 reviews and 8 reads
+Book 21: has 10 reviews and 4 reads
+Book 22: has 9 reviews and 0 reads
+Book 23: has 9 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 5
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 2 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 24
+Total number of books ready: 24
+----------------------------------
+
+##########################################
+Sun Apr 25 18:27:54 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 1 reviews and 0 reads
+Book 1: has 2 reviews and 0 reads
+Book 2: has 1 reviews and 0 reads
+Book 3: has 0 reviews and 0 reads
+Book 4: has 1 reviews and 0 reads
+Book 5: has 1 reviews and 0 reads
+Book 6: has 0 reviews and 0 reads
+Book 7: has 1 reviews and 0 reads
+Book 8: has 0 reviews and 0 reads
+Book 9: has 1 reviews and 0 reads
+Book 10: has 0 reviews and 0 reads
+Book 11: has 1 reviews and 0 reads
+Book 12: has 1 reviews and 0 reads
+Book 13: has 0 reviews and 0 reads
+Book 14: has 1 reviews and 0 reads
+Book 15: has 0 reviews and 0 reads
+Book 16: has 1 reviews and 0 reads
+Book 17: has 0 reviews and 0 reads
+Book 18: has 0 reviews and 0 reads
+Book 19: has 0 reviews and 0 reads
+Book 20: has 0 reviews and 0 reads
+Book 21: has 1 reviews and 0 reads
+Book 22: has 0 reviews and 0 reads
+Book 23: has 0 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 2 |
+----------
+Books Stats:
+Book 0: has 1 reviews and 0 reads
+Book 1: has 2 reviews and 0 reads
+Book 2: has 1 reviews and 0 reads
+Book 3: has 0 reviews and 0 reads
+Book 4: has 1 reviews and 0 reads
+Book 5: has 1 reviews and 0 reads
+Book 6: has 0 reviews and 0 reads
+Book 7: has 1 reviews and 0 reads
+Book 8: has 0 reviews and 0 reads
+Book 9: has 1 reviews and 0 reads
+Book 10: has 0 reviews and 0 reads
+Book 11: has 1 reviews and 0 reads
+Book 12: has 1 reviews and 0 reads
+Book 13: has 0 reviews and 0 reads
+Book 14: has 1 reviews and 0 reads
+Book 15: has 0 reviews and 0 reads
+Book 16: has 1 reviews and 0 reads
+Book 17: has 0 reviews and 0 reads
+Book 18: has 0 reviews and 0 reads
+Book 19: has 0 reviews and 0 reads
+Book 20: has 0 reviews and 0 reads
+Book 21: has 1 reviews and 0 reads
+Book 22: has 0 reviews and 0 reads
+Book 23: has 0 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 3 |
+----------
+Books Stats:
+Book 0: has 1 reviews and 0 reads
+Book 1: has 2 reviews and 0 reads
+Book 2: has 1 reviews and 0 reads
+Book 3: has 0 reviews and 0 reads
+Book 4: has 1 reviews and 0 reads
+Book 5: has 1 reviews and 0 reads
+Book 6: has 0 reviews and 0 reads
+Book 7: has 1 reviews and 0 reads
+Book 8: has 0 reviews and 0 reads
+Book 9: has 1 reviews and 0 reads
+Book 10: has 0 reviews and 0 reads
+Book 11: has 1 reviews and 0 reads
+Book 12: has 1 reviews and 0 reads
+Book 13: has 0 reviews and 0 reads
+Book 14: has 1 reviews and 0 reads
+Book 15: has 0 reviews and 0 reads
+Book 16: has 1 reviews and 0 reads
+Book 17: has 0 reviews and 0 reads
+Book 18: has 0 reviews and 0 reads
+Book 19: has 0 reviews and 0 reads
+Book 20: has 0 reviews and 0 reads
+Book 21: has 1 reviews and 0 reads
+Book 22: has 0 reviews and 0 reads
+Book 23: has 0 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 4 |
+----------
+Books Stats:
+Book 0: has 1 reviews and 0 reads
+Book 1: has 2 reviews and 0 reads
+Book 2: has 1 reviews and 0 reads
+Book 3: has 0 reviews and 0 reads
+Book 4: has 1 reviews and 0 reads
+Book 5: has 1 reviews and 0 reads
+Book 6: has 0 reviews and 0 reads
+Book 7: has 1 reviews and 0 reads
+Book 8: has 0 reviews and 0 reads
+Book 9: has 1 reviews and 0 reads
+Book 10: has 0 reviews and 0 reads
+Book 11: has 1 reviews and 0 reads
+Book 12: has 1 reviews and 0 reads
+Book 13: has 0 reviews and 0 reads
+Book 14: has 1 reviews and 0 reads
+Book 15: has 0 reviews and 0 reads
+Book 16: has 1 reviews and 0 reads
+Book 17: has 0 reviews and 0 reads
+Book 18: has 0 reviews and 0 reads
+Book 19: has 0 reviews and 0 reads
+Book 20: has 0 reviews and 0 reads
+Book 21: has 1 reviews and 0 reads
+Book 22: has 0 reviews and 0 reads
+Book 23: has 0 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 5 |
+----------
+Books Stats:
+Book 0: has 1 reviews and 0 reads
+Book 1: has 2 reviews and 0 reads
+Book 2: has 1 reviews and 0 reads
+Book 3: has 0 reviews and 0 reads
+Book 4: has 1 reviews and 0 reads
+Book 5: has 1 reviews and 0 reads
+Book 6: has 0 reviews and 0 reads
+Book 7: has 1 reviews and 0 reads
+Book 8: has 0 reviews and 0 reads
+Book 9: has 1 reviews and 0 reads
+Book 10: has 0 reviews and 0 reads
+Book 11: has 1 reviews and 0 reads
+Book 12: has 1 reviews and 0 reads
+Book 13: has 0 reviews and 0 reads
+Book 14: has 1 reviews and 0 reads
+Book 15: has 0 reviews and 0 reads
+Book 16: has 1 reviews and 0 reads
+Book 17: has 0 reviews and 0 reads
+Book 18: has 0 reviews and 0 reads
+Book 19: has 0 reviews and 0 reads
+Book 20: has 0 reviews and 0 reads
+Book 21: has 1 reviews and 0 reads
+Book 22: has 0 reviews and 0 reads
+Book 23: has 0 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 6 |
+----------
+Books Stats:
+Book 0: has 1 reviews and 0 reads
+Book 1: has 2 reviews and 0 reads
+Book 2: has 1 reviews and 0 reads
+Book 3: has 0 reviews and 0 reads
+Book 4: has 1 reviews and 0 reads
+Book 5: has 1 reviews and 0 reads
+Book 6: has 0 reviews and 0 reads
+Book 7: has 1 reviews and 0 reads
+Book 8: has 0 reviews and 0 reads
+Book 9: has 1 reviews and 0 reads
+Book 10: has 0 reviews and 0 reads
+Book 11: has 1 reviews and 0 reads
+Book 12: has 1 reviews and 0 reads
+Book 13: has 0 reviews and 0 reads
+Book 14: has 1 reviews and 0 reads
+Book 15: has 0 reviews and 0 reads
+Book 16: has 1 reviews and 0 reads
+Book 17: has 0 reviews and 0 reads
+Book 18: has 0 reviews and 0 reads
+Book 19: has 0 reviews and 0 reads
+Book 20: has 0 reviews and 0 reads
+Book 21: has 1 reviews and 0 reads
+Book 22: has 0 reviews and 0 reads
+Book 23: has 0 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 7 |
+----------
+Books Stats:
+Book 0: has 1 reviews and 0 reads
+Book 1: has 2 reviews and 0 reads
+Book 2: has 1 reviews and 0 reads
+Book 3: has 0 reviews and 0 reads
+Book 4: has 1 reviews and 0 reads
+Book 5: has 1 reviews and 0 reads
+Book 6: has 0 reviews and 0 reads
+Book 7: has 1 reviews and 0 reads
+Book 8: has 0 reviews and 0 reads
+Book 9: has 1 reviews and 0 reads
+Book 10: has 0 reviews and 0 reads
+Book 11: has 1 reviews and 0 reads
+Book 12: has 1 reviews and 0 reads
+Book 13: has 0 reviews and 0 reads
+Book 14: has 1 reviews and 0 reads
+Book 15: has 0 reviews and 0 reads
+Book 16: has 1 reviews and 0 reads
+Book 17: has 0 reviews and 0 reads
+Book 18: has 0 reviews and 0 reads
+Book 19: has 0 reviews and 0 reads
+Book 20: has 0 reviews and 0 reads
+Book 21: has 1 reviews and 0 reads
+Book 22: has 0 reviews and 0 reads
+Book 23: has 0 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 8 |
+----------
+Books Stats:
+Book 0: has 1 reviews and 0 reads
+Book 1: has 2 reviews and 0 reads
+Book 2: has 1 reviews and 0 reads
+Book 3: has 0 reviews and 0 reads
+Book 4: has 1 reviews and 0 reads
+Book 5: has 1 reviews and 0 reads
+Book 6: has 0 reviews and 0 reads
+Book 7: has 1 reviews and 0 reads
+Book 8: has 0 reviews and 0 reads
+Book 9: has 1 reviews and 0 reads
+Book 10: has 0 reviews and 0 reads
+Book 11: has 1 reviews and 0 reads
+Book 12: has 1 reviews and 0 reads
+Book 13: has 0 reviews and 0 reads
+Book 14: has 1 reviews and 0 reads
+Book 15: has 0 reviews and 0 reads
+Book 16: has 1 reviews and 0 reads
+Book 17: has 0 reviews and 0 reads
+Book 18: has 0 reviews and 0 reads
+Book 19: has 0 reviews and 0 reads
+Book 20: has 0 reviews and 0 reads
+Book 21: has 1 reviews and 0 reads
+Book 22: has 0 reviews and 0 reads
+Book 23: has 0 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 9 |
+----------
+Books Stats:
+Book 0: has 1 reviews and 0 reads
+Book 1: has 2 reviews and 0 reads
+Book 2: has 1 reviews and 0 reads
+Book 3: has 0 reviews and 0 reads
+Book 4: has 1 reviews and 0 reads
+Book 5: has 1 reviews and 0 reads
+Book 6: has 0 reviews and 0 reads
+Book 7: has 1 reviews and 0 reads
+Book 8: has 0 reviews and 0 reads
+Book 9: has 1 reviews and 0 reads
+Book 10: has 0 reviews and 0 reads
+Book 11: has 1 reviews and 0 reads
+Book 12: has 1 reviews and 0 reads
+Book 13: has 0 reviews and 0 reads
+Book 14: has 1 reviews and 0 reads
+Book 15: has 0 reviews and 0 reads
+Book 16: has 1 reviews and 0 reads
+Book 17: has 0 reviews and 0 reads
+Book 18: has 0 reviews and 0 reads
+Book 19: has 0 reviews and 0 reads
+Book 20: has 0 reviews and 0 reads
+Book 21: has 1 reviews and 0 reads
+Book 22: has 0 reviews and 0 reads
+Book 23: has 0 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 10 |
+----------
+Books Stats:
+Book 0: has 1 reviews and 0 reads
+Book 1: has 2 reviews and 0 reads
+Book 2: has 1 reviews and 0 reads
+Book 3: has 0 reviews and 0 reads
+Book 4: has 1 reviews and 0 reads
+Book 5: has 1 reviews and 0 reads
+Book 6: has 0 reviews and 0 reads
+Book 7: has 1 reviews and 0 reads
+Book 8: has 0 reviews and 0 reads
+Book 9: has 1 reviews and 0 reads
+Book 10: has 0 reviews and 0 reads
+Book 11: has 1 reviews and 0 reads
+Book 12: has 1 reviews and 0 reads
+Book 13: has 0 reviews and 0 reads
+Book 14: has 1 reviews and 0 reads
+Book 15: has 0 reviews and 0 reads
+Book 16: has 1 reviews and 0 reads
+Book 17: has 0 reviews and 0 reads
+Book 18: has 0 reviews and 0 reads
+Book 19: has 0 reviews and 0 reads
+Book 20: has 0 reviews and 0 reads
+Book 21: has 1 reviews and 0 reads
+Book 22: has 0 reviews and 0 reads
+Book 23: has 0 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 11 |
+----------
+Books Stats:
+Book 0: has 1 reviews and 0 reads
+Book 1: has 2 reviews and 0 reads
+Book 2: has 1 reviews and 0 reads
+Book 3: has 0 reviews and 0 reads
+Book 4: has 1 reviews and 0 reads
+Book 5: has 1 reviews and 0 reads
+Book 6: has 0 reviews and 0 reads
+Book 7: has 1 reviews and 0 reads
+Book 8: has 0 reviews and 0 reads
+Book 9: has 1 reviews and 0 reads
+Book 10: has 0 reviews and 0 reads
+Book 11: has 1 reviews and 0 reads
+Book 12: has 1 reviews and 0 reads
+Book 13: has 0 reviews and 0 reads
+Book 14: has 1 reviews and 0 reads
+Book 15: has 0 reviews and 0 reads
+Book 16: has 1 reviews and 0 reads
+Book 17: has 0 reviews and 0 reads
+Book 18: has 0 reviews and 0 reads
+Book 19: has 0 reviews and 0 reads
+Book 20: has 0 reviews and 0 reads
+Book 21: has 1 reviews and 0 reads
+Book 22: has 0 reviews and 0 reads
+Book 23: has 0 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 0
+----------------------------------
+
+##########################################
+Sun Apr 25 18:36:21 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 0 reviews and 0 reads
+Book 1: has 0 reviews and 0 reads
+Book 2: has 0 reviews and 0 reads
+Book 3: has 0 reviews and 0 reads
+Book 4: has 0 reviews and 0 reads
+Book 5: has 0 reviews and 0 reads
+Book 6: has 0 reviews and 0 reads
+Book 7: has 0 reviews and 0 reads
+Book 8: has 0 reviews and 0 reads
+Book 9: has 0 reviews and 0 reads
+Book 10: has 0 reviews and 0 reads
+Book 11: has 0 reviews and 0 reads
+Book 12: has 0 reviews and 0 reads
+Book 13: has 0 reviews and 0 reads
+Book 14: has 0 reviews and 0 reads
+Book 15: has 0 reviews and 0 reads
+Book 16: has 0 reviews and 0 reads
+Book 17: has 0 reviews and 0 reads
+Book 18: has 0 reviews and 0 reads
+Book 19: has 0 reviews and 0 reads
+Book 20: has 0 reviews and 0 reads
+Book 21: has 0 reviews and 0 reads
+Book 22: has 0 reviews and 0 reads
+Book 23: has 0 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 2 |
+----------
+Books Stats:
+Book 0: has 0 reviews and 0 reads
+Book 1: has 0 reviews and 0 reads
+Book 2: has 0 reviews and 0 reads
+Book 3: has 0 reviews and 0 reads
+Book 4: has 0 reviews and 0 reads
+Book 5: has 0 reviews and 0 reads
+Book 6: has 0 reviews and 0 reads
+Book 7: has 0 reviews and 0 reads
+Book 8: has 0 reviews and 0 reads
+Book 9: has 0 reviews and 0 reads
+Book 10: has 0 reviews and 0 reads
+Book 11: has 0 reviews and 0 reads
+Book 12: has 0 reviews and 0 reads
+Book 13: has 0 reviews and 0 reads
+Book 14: has 0 reviews and 0 reads
+Book 15: has 0 reviews and 0 reads
+Book 16: has 0 reviews and 0 reads
+Book 17: has 0 reviews and 0 reads
+Book 18: has 0 reviews and 0 reads
+Book 19: has 0 reviews and 0 reads
+Book 20: has 0 reviews and 0 reads
+Book 21: has 0 reviews and 0 reads
+Book 22: has 0 reviews and 0 reads
+Book 23: has 0 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 3 |
+----------
+Books Stats:
+Book 0: has 0 reviews and 0 reads
+Book 1: has 0 reviews and 0 reads
+Book 2: has 0 reviews and 0 reads
+Book 3: has 0 reviews and 0 reads
+Book 4: has 0 reviews and 0 reads
+Book 5: has 0 reviews and 0 reads
+Book 6: has 0 reviews and 0 reads
+Book 7: has 0 reviews and 0 reads
+Book 8: has 0 reviews and 0 reads
+Book 9: has 0 reviews and 0 reads
+Book 10: has 0 reviews and 0 reads
+Book 11: has 0 reviews and 0 reads
+Book 12: has 0 reviews and 0 reads
+Book 13: has 0 reviews and 0 reads
+Book 14: has 0 reviews and 0 reads
+Book 15: has 0 reviews and 0 reads
+Book 16: has 0 reviews and 0 reads
+Book 17: has 0 reviews and 0 reads
+Book 18: has 0 reviews and 0 reads
+Book 19: has 0 reviews and 0 reads
+Book 20: has 0 reviews and 0 reads
+Book 21: has 0 reviews and 0 reads
+Book 22: has 0 reviews and 0 reads
+Book 23: has 0 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 4 |
+----------
+Books Stats:
+Book 0: has 0 reviews and 0 reads
+Book 1: has 0 reviews and 0 reads
+Book 2: has 0 reviews and 0 reads
+Book 3: has 0 reviews and 0 reads
+Book 4: has 0 reviews and 0 reads
+Book 5: has 0 reviews and 0 reads
+Book 6: has 0 reviews and 0 reads
+Book 7: has 0 reviews and 0 reads
+Book 8: has 0 reviews and 0 reads
+Book 9: has 0 reviews and 0 reads
+Book 10: has 0 reviews and 0 reads
+Book 11: has 0 reviews and 0 reads
+Book 12: has 0 reviews and 0 reads
+Book 13: has 0 reviews and 0 reads
+Book 14: has 0 reviews and 0 reads
+Book 15: has 0 reviews and 0 reads
+Book 16: has 0 reviews and 0 reads
+Book 17: has 0 reviews and 0 reads
+Book 18: has 0 reviews and 0 reads
+Book 19: has 0 reviews and 0 reads
+Book 20: has 0 reviews and 0 reads
+Book 21: has 0 reviews and 0 reads
+Book 22: has 0 reviews and 0 reads
+Book 23: has 0 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 5 |
+----------
+Books Stats:
+Book 0: has 0 reviews and 0 reads
+Book 1: has 0 reviews and 0 reads
+Book 2: has 0 reviews and 0 reads
+Book 3: has 0 reviews and 0 reads
+Book 4: has 0 reviews and 0 reads
+Book 5: has 0 reviews and 0 reads
+Book 6: has 0 reviews and 0 reads
+Book 7: has 0 reviews and 0 reads
+Book 8: has 0 reviews and 0 reads
+Book 9: has 0 reviews and 0 reads
+Book 10: has 0 reviews and 0 reads
+Book 11: has 0 reviews and 0 reads
+Book 12: has 0 reviews and 0 reads
+Book 13: has 0 reviews and 0 reads
+Book 14: has 0 reviews and 0 reads
+Book 15: has 0 reviews and 0 reads
+Book 16: has 0 reviews and 0 reads
+Book 17: has 0 reviews and 0 reads
+Book 18: has 0 reviews and 0 reads
+Book 19: has 0 reviews and 0 reads
+Book 20: has 0 reviews and 0 reads
+Book 21: has 0 reviews and 0 reads
+Book 22: has 0 reviews and 0 reads
+Book 23: has 0 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 6 |
+----------
+Books Stats:
+Book 0: has 0 reviews and 0 reads
+Book 1: has 0 reviews and 0 reads
+Book 2: has 0 reviews and 0 reads
+Book 3: has 0 reviews and 0 reads
+Book 4: has 0 reviews and 0 reads
+Book 5: has 0 reviews and 0 reads
+Book 6: has 0 reviews and 0 reads
+Book 7: has 0 reviews and 0 reads
+Book 8: has 0 reviews and 0 reads
+Book 9: has 0 reviews and 0 reads
+Book 10: has 0 reviews and 0 reads
+Book 11: has 0 reviews and 0 reads
+Book 12: has 0 reviews and 0 reads
+Book 13: has 0 reviews and 0 reads
+Book 14: has 0 reviews and 0 reads
+Book 15: has 0 reviews and 0 reads
+Book 16: has 0 reviews and 0 reads
+Book 17: has 0 reviews and 0 reads
+Book 18: has 0 reviews and 0 reads
+Book 19: has 0 reviews and 0 reads
+Book 20: has 0 reviews and 0 reads
+Book 21: has 0 reviews and 0 reads
+Book 22: has 0 reviews and 0 reads
+Book 23: has 0 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 7 |
+----------
+Books Stats:
+Book 0: has 0 reviews and 0 reads
+Book 1: has 0 reviews and 0 reads
+Book 2: has 0 reviews and 0 reads
+Book 3: has 0 reviews and 0 reads
+Book 4: has 0 reviews and 0 reads
+Book 5: has 0 reviews and 0 reads
+Book 6: has 0 reviews and 0 reads
+Book 7: has 0 reviews and 0 reads
+Book 8: has 0 reviews and 0 reads
+Book 9: has 0 reviews and 0 reads
+Book 10: has 0 reviews and 0 reads
+Book 11: has 0 reviews and 0 reads
+Book 12: has 0 reviews and 0 reads
+Book 13: has 0 reviews and 0 reads
+Book 14: has 0 reviews and 0 reads
+Book 15: has 0 reviews and 0 reads
+Book 16: has 0 reviews and 0 reads
+Book 17: has 0 reviews and 0 reads
+Book 18: has 0 reviews and 0 reads
+Book 19: has 0 reviews and 0 reads
+Book 20: has 0 reviews and 0 reads
+Book 21: has 0 reviews and 0 reads
+Book 22: has 0 reviews and 0 reads
+Book 23: has 0 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 0
+Total number of books ready: 0
+----------------------------------
+
+##########################################
+Sun Apr 25 18:36:46 ART 2021
+REPORT OF PROGRAM 
+Thirty Threads
+##########################################
+----------------------------------
+Report 1 |
+----------
+Books Stats:
+Book 0: has 8 reviews and 0 reads
+Book 1: has 7 reviews and 0 reads
+Book 2: has 9 reviews and 0 reads
+Book 3: has 7 reviews and 0 reads
+Book 4: has 8 reviews and 0 reads
+Book 5: has 7 reviews and 0 reads
+Book 6: has 6 reviews and 0 reads
+Book 7: has 8 reviews and 0 reads
+Book 8: has 9 reviews and 0 reads
+Book 9: has 9 reviews and 0 reads
+Book 10: has 9 reviews and 0 reads
+Book 11: has 8 reviews and 0 reads
+Book 12: has 9 reviews and 0 reads
+Book 13: has 9 reviews and 0 reads
+Book 14: has 9 reviews and 0 reads
+Book 15: has 9 reviews and 0 reads
+Book 16: has 10 reviews and 0 reads
+Book 17: has 8 reviews and 0 reads
+Book 18: has 8 reviews and 0 reads
+Book 19: has 9 reviews and 0 reads
+Book 20: has 10 reviews and 10 reads
+Book 21: has 10 reviews and 7 reads
+Book 22: has 9 reviews and 0 reads
+Book 23: has 10 reviews and 0 reads
+Total number of books:   24
+Total number of books in final version: 3
+Total number of books ready: 0
+----------------------------------
+
+----------------------------------
+Report 2 |
+----------
+Books Stats:
+Book 0: has 10 reviews and 20 reads
+Book 1: has 10 reviews and 20 reads
+Book 2: has 10 reviews and 20 reads
+Book 3: has 10 reviews and 20 reads
+Book 4: has 10 reviews and 20 reads
+Book 5: has 10 reviews and 20 reads
+Book 6: has 10 reviews and 20 reads
+Book 7: has 10 reviews and 20 reads
+Book 8: has 10 reviews and 20 reads
+Book 9: has 10 reviews and 20 reads
+Book 10: has 10 reviews and 20 reads
+Book 11: has 10 reviews and 20 reads
+Book 12: has 10 reviews and 20 reads
+Book 13: has 10 reviews and 20 reads
+Book 14: has 10 reviews and 20 reads
+Book 15: has 10 reviews and 20 reads
+Book 16: has 10 reviews and 20 reads
+Book 17: has 10 reviews and 20 reads
+Book 18: has 10 reviews and 20 reads
+Book 19: has 10 reviews and 20 reads
+Book 20: has 10 reviews and 20 reads
+Book 21: has 10 reviews and 20 reads
+Book 22: has 10 reviews and 20 reads
+Book 23: has 10 reviews and 20 reads
+Total number of books:   24
+Total number of books in final version: 24
+Total number of books ready: 24
+----------------------------------
+

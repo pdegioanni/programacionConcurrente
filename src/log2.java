@@ -59,13 +59,13 @@ public class log2 {
         //Save report
         report += ("----------------------------------\n");
 
-        report += ("Report " + this.reportNumber +" |\n"+ "----------" +
+       /* report += ("Report " + this.reportNumber +" |\n"+ "----------" +
                 "\nTotal number of books:   " + bookCase.getNumberOfBooks() +
                 "\nTotal number of books in final version: " + bookCase.getAmountOfBooksInFinalVersion() +
                 "\nTotal number of books ready: " + bookCase.getAmountOfBooksReady() +
                 "\nBooks Stats\n:" + bookCase.getBooksStats() +
                 "\n");
-        report += ("----------------------------------\n");
+        report += ("----------------------------------\n");*/
 
         //increase a report number counter
         this.reportNumber++;
