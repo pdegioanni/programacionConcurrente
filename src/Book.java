@@ -84,7 +84,7 @@ public class Book {
 
     public void onlyReadBook(String readerId){
         bookLock.readLock().lock();
-        if(!writerEntry.hasQueuedThreads()){
+        if(writerEntry.availablePermits() > 0){
             System.out.printf("%s %s: reading book %d, writers waiting: %d\n",new Date().getTime(), readerId, this.getIdNumber(), writerEntry.getQueueLength());
             try {
                 TimeUnit.MILLISECONDS.sleep((long) (Math.random()*150));
