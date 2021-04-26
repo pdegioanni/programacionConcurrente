@@ -1,4 +1,3 @@
-import java.util.concurrent.TimeUnit;
 
 public class Main {
     public static void main (String args[]){
@@ -11,15 +10,20 @@ public class Main {
         // Creates the first ten Threads for writers
         for (int i=0; i< threadW.length; i++){
             threadW[i]=new Thread(new Writer(bookCase),"Writer "+i);
+            threadW[i].setPriority(Thread.MAX_PRIORITY);
         }
+        // Creates another twenty Threads for readers
         for (int i=0; i< threadR.length; i++){
             threadR[i]=new Thread(new Reader(bookCase),"Reader "+i);
+            threadR[i].setPriority(Thread.MIN_PRIORITY);
         }
+
+        // Creates trhread for log
         Log log = new Log(bookCase);
         Thread threadL = new Thread(log);
 
 
-        //check initial time
+        //Checks initial time
         long startTime = System.currentTimeMillis();
 
         // Starts the Threads
@@ -29,17 +33,18 @@ public class Main {
 
         threadL.start();
 
-        try {
+        /*try {
             TimeUnit.SECONDS.sleep(1);
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }
+        }*/
 
         for (int i=0; i< threadR.length; i++){
             threadR[i].start();
         }
 
-        //check finish time
+
+        //Checks final time when log ends reporting
         try {
             threadL.join();
         } catch (InterruptedException e) {
@@ -55,4 +60,4 @@ public class Main {
         System.out.printf("------------------------\n");
     }
 
-}
+    }

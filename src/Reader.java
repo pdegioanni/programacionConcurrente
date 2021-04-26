@@ -1,33 +1,47 @@
 import java.util.ArrayList;
 
 public class Reader implements Runnable{
-    private BookCase bookCase;
-    private ArrayList<Book> booksRead;
 
+    //PRIVATE FIELDS
+    //------------------------------------------------------------------------------------------------------------------
+    private final BookCase bookCase;
+    private ArrayList<Book> booksReadInFinalVersion;
+
+    //CONSTRUCTOR
+    //------------------------------------------------------------------------------------------------------------------
     public Reader(BookCase bookCase){
         this.bookCase = bookCase;
-        booksRead = new ArrayList<>();
+        booksReadInFinalVersion = new ArrayList<>();
     }
 
+    //PUBLIC METHODS
+    //------------------------------------------------------------------------------------------------------------------
     @Override
     public void run() {
         do {
             readBook();
-        } while(booksRead.size() < bookCase.getNumberOfBooks());
+        } while(booksReadInFinalVersion.size() < bookCase.getNumberOfBooks());
     }
 
+    //PRIVATE METHODS
+    //------------------------------------------------------------------------------------------------------------------
     private void readBook(){
-        Book bookToRead = bookCase.getBook(booksRead);
-        if(bookToRead.isFinalVersion()){
-            System.out.printf("%s: going to read the final version of book %d \n",Thread.currentThread().getName(), bookToRead.getIdNumber());
-            bookToRead.registerRead();
-            System.out.printf("%s: a read has been registered on book %d \n",Thread.currentThread().getName(), bookToRead.getIdNumber());
-            markBookAsRead(bookToRead);
+        Book bookToRead = bookCase.getBook();
+
+        if (bookToRead.isFinalVersion()){
+            if(!booksReadInFinalVersion.contains(bookToRead)){
+                bookToRead.registerRead(Thread.currentThread().getName());
+                markBookAsRead(bookToRead);
+            }
         }
-        //else bookToRead.readBook()
+
+        else {
+            bookToRead.onlyReadBook(Thread.currentThread().getName());
+        }
     }
 
     private void markBookAsRead(Book book){
-        booksRead.add(book);
+        booksReadInFinalVersion.add(book);
     }
+
 }

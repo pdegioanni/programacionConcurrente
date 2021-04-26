@@ -25,6 +25,13 @@ public class BookCase {
     }
     //PUBLIC METHODS
     //------------------------------------------------------------------------------------------------------------------
+    public Book getBook(){
+        Random rand = new Random();
+        Book bookSelected;
+        bookSelected = allBooks.get(rand.nextInt(allBooks.size()));
+        return bookSelected;
+    }
+
     public Book getBook(ArrayList<Book> notValidBooks){
         Random rand = new Random();
         Book bookSelected;
@@ -32,10 +39,6 @@ public class BookCase {
 
         bookSelected = validBooks.get(rand.nextInt(validBooks.size()));
         return bookSelected;
-    }
-
-    public ArrayList<Book> getAllBooks() {
-        return allBooks;
     }
 
     public boolean checkAllBooksReady(){
@@ -49,30 +52,23 @@ public class BookCase {
 
     public String getBooksStats(){
         StringBuilder result = new StringBuilder();
-        for(Book book : allBooks){
-            result.append("Book ").append(book.getIdNumber()).append(": has ").append(book.getReviews()).append(" reviews and ").append(book.getReads()).append(" reads\n");
-        }
-        return result.toString();
-    }
-
-    public int getAmountOfBooksInFinalVersion(){
-        int booksInFinalVersion = 0;
-        for (Book book: allBooks){
-            if(book.isFinalVersion()){
-                booksInFinalVersion++;
-            }
-        }
-        return booksInFinalVersion;
-    }
-
-    public int getAmountOfBooksReady(){
         int booksReady = 0;
-        for(Book book: allBooks){
+        int booksInFinalVersion =0;
+
+        result.append("\nBooks Stats:\n" );
+        for(Book book : allBooks){
             if(book.isReady()) {
                 booksReady++;
             }
+            if(book.isFinalVersion()){
+                booksInFinalVersion ++;
+            }
+            result.append("Book ").append(book.getIdNumber()).append(": has ").append(book.getReviews()).append(" reviews and ").append(book.getReads()).append(" reads\n");
         }
-        return booksReady;
+        result.append ("Total number of books:   " + this.getNumberOfBooks() +
+                "\nApproximate total number of books in final version: " + booksInFinalVersion +
+                "\nApproximate total number of books ready: " + booksReady);
+        return result.toString();
     }
 
     public int getNumberOfBooks() {

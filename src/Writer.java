@@ -1,14 +1,21 @@
 import java.util.ArrayList;
 
 public class Writer implements Runnable{
-    private BookCase bookCase;
+
+    //PRIVATE FIELDS
+    //------------------------------------------------------------------------------------------------------------------
+    private final BookCase bookCase;
     private ArrayList<Book> booksReviewed;
 
+    //CONSTRUCTOR
+    //------------------------------------------------------------------------------------------------------------------
     public Writer(BookCase bookCase){
         this.bookCase = bookCase;
         booksReviewed = new ArrayList<>();
     }
 
+    //PUBLIC METHODS
+    //------------------------------------------------------------------------------------------------------------------
     @Override
     public void run() {
         do {
@@ -16,11 +23,11 @@ public class Writer implements Runnable{
         } while(booksReviewed.size() < bookCase.getNumberOfBooks());
     }
 
+    //PRIVATE METHODS
+    //------------------------------------------------------------------------------------------------------------------
     private void reviewBook(){
         Book bookToReview = bookCase.getBook(booksReviewed);
-        System.out.printf("%s: going to write a review on book %d \n",Thread.currentThread().getName(), bookToReview.getIdNumber());
-        bookToReview.writeReview();
-        System.out.printf("%s: a review has been written on book %d \n",Thread.currentThread().getName(), bookToReview.getIdNumber());
+        bookToReview.writeReview(Thread.currentThread().getName());
         markBookAsReviewed(bookToReview);
     }
 
