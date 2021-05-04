@@ -2,7 +2,6 @@
 public class Main {
     public static void main (String args[]){
         // Creates the print queue
-
         Thread[] threadW=new Thread[10];
         Thread[] threadR=new Thread[20];
         BookCase bookCase = new BookCase(24, threadW.length, threadR.length);
@@ -18,10 +17,9 @@ public class Main {
             threadR[i].setPriority(Thread.MIN_PRIORITY);
         }
 
-        // Creates trhread for log
+        // Creates thread for log
         Log log = new Log(bookCase);
         Thread threadL = new Thread(log);
-
 
         //Checks initial time
         long startTime = System.currentTimeMillis();
@@ -42,7 +40,6 @@ public class Main {
         for (int i=0; i< threadR.length; i++){
             threadR[i].start();
         }
-
 
         //Checks final time when log ends reporting
         try {
